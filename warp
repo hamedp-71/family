@@ -1,1 +1,85 @@
-{ "outbounds": [ { "type": "wireguard", "tag": "Warp-IR2", "server": "188.114.98.229", "server_port": 987, "local_address": [ "172.16.0.2/32", "2606:4700:110:82ec:c389:5c50:69a9:4ae0/128" ], "private_key": "gMV7OyxWxPKXuA5YMwgLL1oTHOhK9KG5eui1XR3W/XE=", "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", "reserved": [140,8,96], "mtu": 1280, "fake_packets": "5-10" }, { "type": "wireguard", "tag": "Warp-Main2", "detour": "Warp-IR2", "server": "188.114.98.229", "server_port": 987, "local_address": [ "172.16.0.2/32", "2606:4700:110:818a:6f07:ea5b:cb23:3138/128" ], "private_key": "qA8IbwLOy75RyWOlC48EpIHUuKlEDFtd364eKFo+UE8=", "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", "reserved": [46,240,225], "mtu": 1120, "fake_packets": "5-10" },{ "type": "wireguard", "tag": "Warp-IR3", "server": "162.159.195.127", "server_port": 880, "local_address": [ "172.16.0.2/32", "2606:4700:110:82ec:c389:5c50:69a9:4ae0/128" ], "private_key": "gMV7OyxWxPKXuA5YMwgLL1oTHOhK9KG5eui1XR3W/XE=", "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", "reserved": [140,8,96], "mtu": 1280, "fake_packets": "5-10" }, { "type": "wireguard", "tag": "Warp-Main3", "detour": "Warp-IR3", "server": "162.159.195.127", "server_port": 880, "local_address": [ "172.16.0.2/32", "2606:4700:110:818a:6f07:ea5b:cb23:3138/128" ], "private_key": "qA8IbwLOy75RyWOlC48EpIHUuKlEDFtd364eKFo+UE8=", "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", "reserved": [46,240,225], "mtu": 1120, "fake_packets": "5-10" },{ "type": "wireguard", "tag": "Warp-IR4", "server": "162.159.195.71", "server_port": 987, "local_address": [ "172.16.0.2/32", "2606:4700:110:82ec:c389:5c50:69a9:4ae0/128" ], "private_key": "gMV7OyxWxPKXuA5YMwgLL1oTHOhK9KG5eui1XR3W/XE=", "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", "reserved": [140,8,96], "mtu": 1280, "fake_packets": "5-10" }, { "type": "wireguard", "tag": "Warp-Main4", "detour": "Warp-IR4", "server": "162.159.195.71", "server_port": 987, "local_address": [ "172.16.0.2/32", "2606:4700:110:818a:6f07:ea5b:cb23:3138/128" ], "private_key": "qA8IbwLOy75RyWOlC48EpIHUuKlEDFtd364eKFo+UE8=", "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", "reserved": [46,240,225], "mtu": 1120, "fake_packets": "5-10" },{ "type": "wireguard", "tag": "Warp-IR5", "server": "162.159.195.71", "server_port": 880, "local_address": [ "172.16.0.2/32", "2606:4700:110:82ec:c389:5c50:69a9:4ae0/128" ], "private_key": "gMV7OyxWxPKXuA5YMwgLL1oTHOhK9KG5eui1XR3W/XE=", "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", "reserved": [140,8,96], "mtu": 1280, "fake_packets": "5-10" }, { "type": "wireguard", "tag": "Warp-Main5", "detour": "Warp-IR5", "server": "162.159.195.71", "server_port": 880, "local_address": [ "172.16.0.2/32", "2606:4700:110:818a:6f07:ea5b:cb23:3138/128" ], "private_key": "qA8IbwLOy75RyWOlC48EpIHUuKlEDFtd364eKFo+UE8=", "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=", "reserved": [46,240,225], "mtu": 1120, "fake_packets": "5-10" } ] }
+{                                                            "route": {
+                "geoip": {                                           "path": "geo-assets\\sagernet-sing-geoip-geoip.db"                                                        },
+                "geosite": {                                         "path": "geo-assets\\sagernet-sing-geosite-geosite.db"                                                    },
+                "rules": [                                           {
+                        "inbound": "dns-in",                                 "outbound": "dns-out"
+                },                                                   {
+                        "port": 53,                                          "outbound": "dns-out"
+                },                                                   {
+                        "clash_mode": "Direct",                              "outbound": "direct"
+                },                                                   {
+                        "clash_mode": "Global",                              "outbound": "select"
+                }                                                    ],
+                "auto_detect_interface": true,
+                "override_android_vpn": true
+        },
+        "outbounds": [
+                {
+                "type": "selector",
+                "tag": "select",
+                "outbounds": [
+                        "auto",
+                        "IP->Iran, Yotube:Geekmeek",
+                        "IP->Main, Yotube:Geekmeek"
+                ],
+                "default": "auto"
+                },
+                {
+                "type": "urltest",
+                "tag": "auto",
+                "outbounds": [
+                        "IP->Iran, Yotube:Geekmeek",
+                        "IP->Main, Yotube:Geekmeek"
+                ],
+                "url": "http://cp.cloudflare.com/",
+                "interval": "10m0s"
+                },
+                {
+                "type": "wireguard",
+                "tag": "IP->Iran, Yotube:Geekmeek",
+                "local_address": [
+                        "172.16.0.2/32",
+                        "2606:4700:110:85d8:ef52:56cd:c3a2:8783/128"
+                ],
+                "private_key": "UD5yCM37vHZNRVDEohNKAXBVZFhMXa7epCmNICADtEc=",
+                "server": "188.114.98.145",
+                "server_port": 878,
+                "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+                "reserved": [46,127,164],
+                "mtu": 1280,
+                "fake_packets": "5-10"
+                },
+                {
+                "type": "wireguard",
+                "tag": "IP->Main, Yotube:Geekmeek",
+                "detour": "IP->Iran, Yotube:Geekmeek",
+                "local_address": [
+                        "172.16.0.2/32",
+                        "2606:4700:110:843e:c7c:5f62:b9fb:43f9/128"
+                ],
+                "private_key": "KMH1MDRq1vxT7JE/lPPBMvx5UA+L6iuu73BGXERS2lM=",
+                "server": "188.114.98.145",
+                "server_port": 878,
+                "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+                "reserved": [199,150,209],
+                "mtu": 1280,
+                "fake_packets": "5-10"
+                },
+                {
+                "type": "dns",
+                "tag": "dns-out"
+                },
+                {
+                "type": "direct",
+                "tag": "direct"
+                },
+                {
+                "type": "direct",
+                "tag": "bypass"
+                },
+                {
+                "type": "block",
+                "tag": "block"
+                }
+        ]
+        }

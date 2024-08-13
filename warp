@@ -1,7 +1,10 @@
 //profile-title: base64:8J+Yjtiq2YXYp9mFX9i02K/wn5mC
 //profile-update-interval: 1
-//subscription-userinfo: upload=29; download=12; total=10737418240000000; expire=2546249531
-//support-url: https://t.me/hamedvpns
+//subscription-userinfo: upload=5368709120; download=545097156608; total=955630223360; expire=1762677732
+//support-url: https://t.me/hamedp71
+#profile-web-page-url: https://t.me/hamedvpns
 
-warp://162.159.192.170:4500?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m4&&detour=warp://162.159.192.170:4500?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m4
-warp://162.159.192.159:7152?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m4&&detour=warp://162.159.192.159:7152?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#m4
+warp://p1@188.114.97.170:894?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#خدماتی_حامد_3️⃣&&detour=warp://p2@188.114.97.170:894#خدماتی حامد✅✅
+warp://p1@auto?ifpm=m4#خدماتی_حامد_4️⃣&&detour=warp://p2@auto#خدماتی_حامد_5️⃣
+warp://[2606:4700:d0::3755:4d94:397b:6cb3]:3138/?ifp=5-10#خدماتی_حامد_2️⃣
+warp://[2606:4700:d0::3755:4d94:397b:6cb3]:945/?ifp=1-5#خدماتی_حامد_1️⃣

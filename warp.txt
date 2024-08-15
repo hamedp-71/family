@@ -1,8 +1,7 @@
 //profile-title: base64:INiu2KfZhtmI2KfYr9qv24wg4p2k8J+kjfCfkpo=
 //profile-update-interval: 1
-//subscription-userinfo: upload=5368709120; download=545097156608; total=955630223360; expire=1762677732
-//support-url: https://t.me/hamedp71
-#profile-web-page-url: https://t.me/hamedvpns
+//subscription-userinfo: upload=5368709120; download=117037858816; total=955630223360; expire=1762677732
+#profile-web-page-url: @hamedvpns
 
 vless://c6d299d4-db0b-4444-8b56-b23bbdcbcd67@bpb-a-month-after-july.pages.dev:443?encryption=none&type=ws&host=Bpb-A-MonTh-AftER-jUly.PageS.dEV&security=tls&sni=Bpb-A-mONtH-afTEr-juLy.pages.dEV&fp=randomized&alpn=h2,http/1.1&path=/d7npADRPulURD0Ey?ed=2560#hamedvpns 01:443
 vless://c6d299d4-db0b-4444-8b56-b23bbdcbcd67@www.speedtest.net:443?encryption=none&type=ws&host=BpB-a-Month-aFter-jUly.PAgEs.dEV&security=tls&sni=BPB-a-month-AFTeR-JUlY.PagES.DEV&fp=randomized&alpn=h2,http/1.1&path=/V8zosSVPrWs4QeBM?ed=2560#hamedvpns 02:443

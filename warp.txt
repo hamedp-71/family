@@ -3,5 +3,5 @@
 //subscription-userinfo: upload=5368709120; download=117037858816; total=955630223360; expire=1762677732
 #profile-web-page-url: @hamedvpns
 
-warp://auto?ifp=40-80&ifps=40-100&ifpd=2-6&ifpm=m4#IR&&detour=warp://auto?ifp=1-3&ifps=10-30&ifpd=10-30&ifpm=m4#DE&&detour=warp://auto?ifp=40-80&ifps=40-100&ifpd=2-6&ifpm=m4#🇮🇷&&detour=warp://[2606:4700:d1::1f0f:d828:b911:7ae8]:942?ifp=1-3&ifps=10-30&ifpd=10-30&ifpm=m4#
-warp://auto?ifp=40-80&ifps=40-100&ifpd=2-6&ifpm=m4#IR&&detour=warp://auto?ifp=1-3&ifps=10-30&ifpd=10-30&ifpm=m4#DE
+warp://auto?ifp=40-80&ifps=40-100&ifpd=2-6&ifpm=m4#🇮🇷&&detour=warp://auto?ifp=1-3&ifps=10-30&ifpd=10-30&ifpm=m4#🇩🇪&&detour=warp://auto?ifp=40-80&ifps=40-100&ifpd=2-6&ifpm=m4#🇮🇷&&detour=warp://[2606:4700:d1::1f0f:d828:b911:7ae8]:942?ifp=1-3&ifps=10-30&ifpd=10-30&ifpm=m4#🇺🇸@hamedvpns
+warp://auto?ifp=40-80&ifps=40-100&ifpd=2-6&ifpm=m4#🇮🇷&&detour=warp://auto?ifp=1-3&ifps=10-30&ifpd=10-30&ifpm=m4#🇩🇪@hamedvpns

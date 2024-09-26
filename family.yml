@@ -1,0 +1,2518 @@
+{
+    "mixed-port": 7890,
+    "allow-lan": true,
+    "mode": "rule",
+    "log-level": "info",
+    "keep-alive-interval": 30,
+    "unified-delay": true,
+    "ipv6": true,
+    "dns": {
+        "enable": true,
+        "listen": "0.0.0.0:1053",
+        "ipv6": true,
+        "respect-rules": true,
+        "enhanced-mode": "fake-ip",
+        "fake-ip-range": "198.18.0.1/16",
+        "hosts": {},
+        "default-nameserver": [
+            "8.8.8.8",
+            "8.8.4.4"
+        ],
+        "nameserver": [
+            "https://94.140.14.14/dns-query"
+        ],
+        "fallback": [
+            "https://8.8.8.8/dns-query",
+            "https://8.8.4.4/dns-query"
+        ],
+        "proxy-server-nameserver": [
+            "8.8.8.8",
+            "8.8.4.4"
+        ],
+        "fallback-filter": {
+            "geoip": false,
+            "ipcidr": [
+                "240.0.0.0/4",
+                "0.0.0.0/32"
+            ]
+        }
+    },
+    "proxies": [
+        {
+            "name": "💦 VLESS - Domain 1 - 443",
+            "type": "vless",
+            "server": "hamedvpns2.pages.dev",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/AfMe1vDjoEShxpFL/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HAmeDVPns2.PAges.dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Domain 2 - 443",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/AOVIc0tABwYtm8cF/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAMeDvPnS2.pAgeS.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - IPv4 1 - 443",
+            "type": "vless",
+            "server": "172.66.44.63",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/UD7obP3IMI7w2uU5/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "haMedvPnS2.PaGeS.DeV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - IPv4 2 - 443",
+            "type": "vless",
+            "server": "172.66.47.193",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/C2XdPBeP2zG89JcB/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "haMeDvpnS2.PageS.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - IPv6 1 - 443",
+            "type": "vless",
+            "server": "2606:4700:310c::ac42:2c3f",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/hbe9VIOFXEv4TcE1/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HamedVPNS2.pAgEs.DEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - IPv6 2 - 443",
+            "type": "vless",
+            "server": "2606:4700:310c::ac42:2fc1",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/Td5JGVi0f4Exg0Xr/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HAMedvpNS2.pAgES.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 1 - 443",
+            "type": "vless",
+            "server": "104.19.92.233",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/8dlB7aVlEbUS8y3X/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "haMEdVpnS2.pAgES.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 2 - 443",
+            "type": "vless",
+            "server": "162.159.152.231",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/YVeXpdcbmbtwU2Iy/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "haMEdvPns2.pAges.DeV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 3 - 443",
+            "type": "vless",
+            "server": "162.159.152.60",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/bhUDBlDLpxqgLDhx/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HaMEDvPns2.PAgeS.DeV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 4 - 443",
+            "type": "vless",
+            "server": "sky.rethinkdns.com",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/LuTPBBM4z3fzTN4l/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HamEdvpNS2.pAGEs.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 5 - 443",
+            "type": "vless",
+            "server": "fbi.gov",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/PanJtgaL0LnMY36l/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAmedVpNs2.pAgeS.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 6 - 443",
+            "type": "vless",
+            "server": "time.is",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/8Ac72AiDyvob421N/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "haMedvPnS2.PAGeS.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 7 - 443",
+            "type": "vless",
+            "server": "ipw.nscl.ir",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/uR0XHfZRb6JfPGcD/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HamedVPnS2.PagEs.DEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 8 - 443",
+            "type": "vless",
+            "server": "www.wto.org",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/RuwwqiKy6nNt3xPi/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HaMEDVPns2.PAGes.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 9 - 443",
+            "type": "vless",
+            "server": "ip.sb",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/aVT9Q1o7j7IscP7y/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HamEDVpNs2.pagES.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 10 - 443",
+            "type": "vless",
+            "server": "zula.ir",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/96GhkHc0uwVctpHG/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAMeDVPns2.pagEs.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 11 - 443",
+            "type": "vless",
+            "server": "creativecommons.org",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/jFO6xgZhlba1LTdH/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAMEdVpns2.PAGES.dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 12 - 443",
+            "type": "vless",
+            "server": "go.inmobi.com",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/e0MXcD8n7YCDPqLN/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HaMedvPnS2.PagES.DeV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 13 - 443",
+            "type": "vless",
+            "server": "cdnjs.com",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/WQHIXRyZvANYX7jW/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAMEDVpns2.pAGEs.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 14 - 443",
+            "type": "vless",
+            "server": "104.19.78.77",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/2s2oR7yQ2Tzcgkcl/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HAMedVPnS2.pages.DeV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 15 - 443",
+            "type": "vless",
+            "server": "104.19.35.14",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/OaxqwiqsynrKhG7X/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hamedvpns2.pAGEs.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 16 - 443",
+            "type": "vless",
+            "server": "104.19.118.97",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/HAtkPgMJsviMYlG3/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAMEDvPns2.PAGES.DEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 17 - 443",
+            "type": "vless",
+            "server": "104.18.49.11",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/w5nSVFPPcvEBRrl3/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HAmeDVPnS2.PAGeS.DeV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 18 - 443",
+            "type": "vless",
+            "server": "104.19.65.47",
+            "port": 443,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/lT24m9DHBO2Vuwtv/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HAMeDvPNs2.PaGES.DEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Domain 1 - 2053",
+            "type": "vless",
+            "server": "hamedvpns2.pages.dev",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/z129ZrkZWprvX2GK/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hamEdVPnS2.PaGES.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Domain 2 - 2053",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/KkZBHVUDjtl5cKc8/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HAMEdVpnS2.pAgES.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - IPv4 1 - 2053",
+            "type": "vless",
+            "server": "172.66.44.63",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/8nBaw9ewxyR00qnW/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "haMeDvPns2.paGEs.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - IPv4 2 - 2053",
+            "type": "vless",
+            "server": "172.66.47.193",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/nrUCN6KwWRfEpIpf/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAmedvpnS2.pagEs.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - IPv6 1 - 2053",
+            "type": "vless",
+            "server": "2606:4700:310c::ac42:2c3f",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/Vg9tx3yKg2WzprZB/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HAMEDvpns2.PAgeS.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - IPv6 2 - 2053",
+            "type": "vless",
+            "server": "2606:4700:310c::ac42:2fc1",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/kLLX8gKzv33HH64m/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAMedVpNs2.PAgEs.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 1 - 2053",
+            "type": "vless",
+            "server": "104.19.92.233",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/C6EhwfDQLqb8xh36/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "haMEdVPns2.pAGes.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 2 - 2053",
+            "type": "vless",
+            "server": "162.159.152.231",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/SkUKOQH7y1nI8VVx/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HAmEdVpNS2.PagES.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 3 - 2053",
+            "type": "vless",
+            "server": "162.159.152.60",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/zkMt3Thk6gUpSuxW/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAmEDVpns2.pAGES.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 4 - 2053",
+            "type": "vless",
+            "server": "sky.rethinkdns.com",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/qYxRRSZNz9xwntL1/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hamEdvPnS2.pAGEs.DEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 5 - 2053",
+            "type": "vless",
+            "server": "fbi.gov",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/eCBL2OFQywEpAmii/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hameDVpNs2.PAgES.DeV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 6 - 2053",
+            "type": "vless",
+            "server": "time.is",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/56lmILIdeTpHhVjJ/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HAMEdvpNS2.pAGES.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 7 - 2053",
+            "type": "vless",
+            "server": "ipw.nscl.ir",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/a9HMWo8DjMiwFCCY/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HaMEdvPns2.PAGeS.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 8 - 2053",
+            "type": "vless",
+            "server": "www.wto.org",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/4K5qnrv22TWGe2DV/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HamEDVPnS2.PAGes.dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 9 - 2053",
+            "type": "vless",
+            "server": "ip.sb",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/6cIpcGU1ufm8T4La/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hameDVpns2.pAGeS.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 10 - 2053",
+            "type": "vless",
+            "server": "zula.ir",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/B0xJ8jtsjjVv5frc/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAmeDvpNs2.pAGeS.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 11 - 2053",
+            "type": "vless",
+            "server": "creativecommons.org",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/Pf7HmPCPloFu0C8r/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HAMeDvPNs2.PAGEs.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 12 - 2053",
+            "type": "vless",
+            "server": "go.inmobi.com",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/RuuBfBBP6q1MggAi/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAmedVPnS2.PaGEs.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 13 - 2053",
+            "type": "vless",
+            "server": "cdnjs.com",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/g2anxzc2yBFA4BCC/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HaMEdVPNs2.pAGES.DeV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 14 - 2053",
+            "type": "vless",
+            "server": "104.19.78.77",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/bnlb0dvynskn0Dmg/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hamEDVpNS2.PAGeS.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 15 - 2053",
+            "type": "vless",
+            "server": "104.19.35.14",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/OdyMmX6ytc3RQunI/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAmEDvPNS2.PaGEs.dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 16 - 2053",
+            "type": "vless",
+            "server": "104.19.118.97",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/oJnmZIlVShfqoNYi/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "HAMEdvPNs2.pagES.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 17 - 2053",
+            "type": "vless",
+            "server": "104.18.49.11",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/dn08yPlHL4e74pxf/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAmeDVpNS2.pAGes.DEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 VLESS - Clean IP 18 - 2053",
+            "type": "vless",
+            "server": "104.19.65.47",
+            "port": 2053,
+            "uuid": "253cc0b9-6959-43d3-9f41-228671ecf28a",
+            "tls": true,
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/NSBSYhA8rVLpW27K/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "servername": "hAMEDvPNS2.PAGES.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "clientFingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Domain 1 - 443",
+            "type": "trojan",
+            "server": "hamedvpns2.pages.dev",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trIYbdPIfldE5zeVyy/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hamEdvpNS2.PagES.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Domain 2 - 443",
+            "type": "trojan",
+            "server": "www.speedtest.net",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trO0RVMPooUFfT6hav/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "haMEdVPNs2.pAGEs.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - IPv4 1 - 443",
+            "type": "trojan",
+            "server": "172.66.44.63",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/tro71lJrjbaiPxWkZL/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HAmEdVpns2.pAgeS.DeV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - IPv4 2 - 443",
+            "type": "trojan",
+            "server": "172.66.47.193",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trHEy9S3fICVSoAVXG/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HameDVPnS2.pAgeS.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - IPv6 1 - 443",
+            "type": "trojan",
+            "server": "2606:4700:310c::ac42:2c3f",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trc8uc4p5nyH8RkR1o/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HAMeDVpns2.PaGEs.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - IPv6 2 - 443",
+            "type": "trojan",
+            "server": "2606:4700:310c::ac42:2fc1",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/tr2IJWtX5sHEo8ClQk/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HAMEdvPns2.PAges.dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 1 - 443",
+            "type": "trojan",
+            "server": "104.19.92.233",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trXtS2H68OColavTsc/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HaMedvpns2.PAgeS.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 2 - 443",
+            "type": "trojan",
+            "server": "162.159.152.231",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trNXotvzfFrzx3GmR8/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "haMEDvpns2.pagES.DEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 3 - 443",
+            "type": "trojan",
+            "server": "162.159.152.60",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trCL4spxGzGbaBA3HJ/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hAMeDVpnS2.PagEs.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 4 - 443",
+            "type": "trojan",
+            "server": "sky.rethinkdns.com",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trXBbxxR3wIySMRN9Z/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HaMEDvPnS2.PaGEs.dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 5 - 443",
+            "type": "trojan",
+            "server": "fbi.gov",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trtPb9NqhOQOPGYaJ0/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HAmeDVPNS2.pages.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 6 - 443",
+            "type": "trojan",
+            "server": "time.is",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/tr9RB54F3PHE4ec5GD/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hAmeDVPnS2.PAgES.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 7 - 443",
+            "type": "trojan",
+            "server": "ipw.nscl.ir",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/tr3MwopSRoTG4azQ8t/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hamEDVPns2.PAGeS.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 8 - 443",
+            "type": "trojan",
+            "server": "www.wto.org",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trI6UWeKcs8nVnTmlN/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HAmedVPnS2.PaGEs.DEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 9 - 443",
+            "type": "trojan",
+            "server": "ip.sb",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trD0twZOV7whK5JG0g/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hAMEDVPnS2.paGEs.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 10 - 443",
+            "type": "trojan",
+            "server": "zula.ir",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trIoKuN1RevnCwwVgr/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HAMeDvPNs2.Pages.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 11 - 443",
+            "type": "trojan",
+            "server": "creativecommons.org",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trX3uYn4NM0QaNhNcA/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hAmEDvPns2.pages.dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 12 - 443",
+            "type": "trojan",
+            "server": "go.inmobi.com",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trOZbc1YRlT2RPTxsK/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hamEdvpns2.PAges.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 13 - 443",
+            "type": "trojan",
+            "server": "cdnjs.com",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/tr6plX9EaAcIakOyX4/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HameDvPNs2.pageS.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 14 - 443",
+            "type": "trojan",
+            "server": "104.19.78.77",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trvK2FblTsplLwJ5zK/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hameDVpnS2.pagEs.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 15 - 443",
+            "type": "trojan",
+            "server": "104.19.35.14",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trIPtiXRynfWsyfwrQ/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HAmEdvPNS2.PagES.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 16 - 443",
+            "type": "trojan",
+            "server": "104.19.118.97",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/tr2i57nb82GRtewnSP/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hamedVpnS2.PAGES.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 17 - 443",
+            "type": "trojan",
+            "server": "104.18.49.11",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trITilq1d2Ejgf1YJ3/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hAmedVPNs2.PAGeS.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 18 - 443",
+            "type": "trojan",
+            "server": "104.19.65.47",
+            "port": 443,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/tr4bjOnAWTq9e2sp2w/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hAMEDvpns2.pAGES.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Domain 1 - 2053",
+            "type": "trojan",
+            "server": "hamedvpns2.pages.dev",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trNc52SaEVkzeggau0/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hamEdvpns2.paGeS.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Domain 2 - 2053",
+            "type": "trojan",
+            "server": "www.speedtest.net",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trBFFBjBnsix4Jr8Hw/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HAmedVPnS2.paGES.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - IPv4 1 - 2053",
+            "type": "trojan",
+            "server": "172.66.44.63",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/tr63bdg811JBs9G09H/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hAmedVPns2.PagES.DEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - IPv4 2 - 2053",
+            "type": "trojan",
+            "server": "172.66.47.193",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trJ5jPq0keZZxMcgUT/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "haMEDvpnS2.pages.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - IPv6 1 - 2053",
+            "type": "trojan",
+            "server": "2606:4700:310c::ac42:2c3f",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/tr2gEpr6h9GCJbFLAL/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hAmeDvPnS2.Pages.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - IPv6 2 - 2053",
+            "type": "trojan",
+            "server": "2606:4700:310c::ac42:2fc1",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trbjOoMtqkph7xKqHw/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HAMedVPNs2.pageS.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 1 - 2053",
+            "type": "trojan",
+            "server": "104.19.92.233",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trOBlcoCC7pkL4Rqcq/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HaMedVPNs2.pAgEs.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 2 - 2053",
+            "type": "trojan",
+            "server": "162.159.152.231",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trmqX2q7R3E5qMnkHw/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HamEdvPnS2.PaGeS.dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 3 - 2053",
+            "type": "trojan",
+            "server": "162.159.152.60",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trQW0VRherVq4zcXsE/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HaMEdVpnS2.paGes.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 4 - 2053",
+            "type": "trojan",
+            "server": "sky.rethinkdns.com",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trugQ9V8HcDlhRo2tG/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hAmeDvpns2.paGEs.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 5 - 2053",
+            "type": "trojan",
+            "server": "fbi.gov",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trkryMKuDeN8wIgQzn/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hamedvPns2.PaGES.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 6 - 2053",
+            "type": "trojan",
+            "server": "time.is",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trvTwdBNgXgOz3DMHj/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HaMeDvpnS2.PageS.DeV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 7 - 2053",
+            "type": "trojan",
+            "server": "ipw.nscl.ir",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trpapvq7oJfntwKkOi/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hamEdvpNs2.PAGeS.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 8 - 2053",
+            "type": "trojan",
+            "server": "www.wto.org",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trBHAJqzX559oWZ2S8/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hAMeDVPnS2.PaGes.dEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 9 - 2053",
+            "type": "trojan",
+            "server": "ip.sb",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trbVylBbzwetnA4dCl/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HAMEdvpnS2.pagES.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 10 - 2053",
+            "type": "trojan",
+            "server": "zula.ir",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trelNYHtOjpfELuDEd/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hAMEDvPns2.pAGEs.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 11 - 2053",
+            "type": "trojan",
+            "server": "creativecommons.org",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trPyBHqvGutDoyDUr2/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hAMedVPnS2.pagEs.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 12 - 2053",
+            "type": "trojan",
+            "server": "go.inmobi.com",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trwlhFUcHeQhnS8x0b/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HAMEDvpnS2.PageS.dEv",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 13 - 2053",
+            "type": "trojan",
+            "server": "cdnjs.com",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trxUQGx2ibxTiZgiij/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "hAMEDVpNS2.paGes.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 14 - 2053",
+            "type": "trojan",
+            "server": "104.19.78.77",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trPPjafScZSixn6kZB/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HaMeDVpNs2.PAGeS.deV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 15 - 2053",
+            "type": "trojan",
+            "server": "104.19.35.14",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trHaZBvF2cXrZ8U2hf/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "haMeDvPnS2.PageS.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 16 - 2053",
+            "type": "trojan",
+            "server": "104.19.118.97",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trjmPdXBbWmZf767Ky/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HaMEdVPNs2.PageS.DEV",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 17 - 2053",
+            "type": "trojan",
+            "server": "104.18.49.11",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trfqsc4K3kUf8pOqZk/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HAMedVPnS2.PAGeS.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        },
+        {
+            "name": "💦 Trojan - Clean IP 18 - 2053",
+            "type": "trojan",
+            "server": "104.19.65.47",
+            "port": 2053,
+            "password": "bpb-trojan",
+            "network": "ws",
+            "udp": false,
+            "ws-opts": {
+                "path": "/trIP6KUho74sy0kd2E/dHVyay5yYWRpY2FsaXphdGlvbi5pcg==",
+                "headers": {
+                    "host": "hamedvpns2.pages.dev"
+                },
+                "max-early-data": 2560,
+                "early-data-header-name": "Sec-WebSocket-Protocol"
+            },
+            "sni": "HAMedvpns2.pAGes.Dev",
+            "alpn": [
+                "h2",
+                "http/1.1"
+            ],
+            "client-fingerprint": "random"
+        }
+    ],
+    "proxy-groups": [
+        {
+            "name": "✅ Selector",
+            "type": "select",
+            "proxies": [
+                "💦 Best Ping 💥",
+                "💦 VLESS - Domain 1 - 443",
+                "💦 VLESS - Domain 2 - 443",
+                "💦 VLESS - IPv4 1 - 443",
+                "💦 VLESS - IPv4 2 - 443",
+                "💦 VLESS - IPv6 1 - 443",
+                "💦 VLESS - IPv6 2 - 443",
+                "💦 VLESS - Clean IP 1 - 443",
+                "💦 VLESS - Clean IP 2 - 443",
+                "💦 VLESS - Clean IP 3 - 443",
+                "💦 VLESS - Clean IP 4 - 443",
+                "💦 VLESS - Clean IP 5 - 443",
+                "💦 VLESS - Clean IP 6 - 443",
+                "💦 VLESS - Clean IP 7 - 443",
+                "💦 VLESS - Clean IP 8 - 443",
+                "💦 VLESS - Clean IP 9 - 443",
+                "💦 VLESS - Clean IP 10 - 443",
+                "💦 VLESS - Clean IP 11 - 443",
+                "💦 VLESS - Clean IP 12 - 443",
+                "💦 VLESS - Clean IP 13 - 443",
+                "💦 VLESS - Clean IP 14 - 443",
+                "💦 VLESS - Clean IP 15 - 443",
+                "💦 VLESS - Clean IP 16 - 443",
+                "💦 VLESS - Clean IP 17 - 443",
+                "💦 VLESS - Clean IP 18 - 443",
+                "💦 VLESS - Domain 1 - 2053",
+                "💦 VLESS - Domain 2 - 2053",
+                "💦 VLESS - IPv4 1 - 2053",
+                "💦 VLESS - IPv4 2 - 2053",
+                "💦 VLESS - IPv6 1 - 2053",
+                "💦 VLESS - IPv6 2 - 2053",
+                "💦 VLESS - Clean IP 1 - 2053",
+                "💦 VLESS - Clean IP 2 - 2053",
+                "💦 VLESS - Clean IP 3 - 2053",
+                "💦 VLESS - Clean IP 4 - 2053",
+                "💦 VLESS - Clean IP 5 - 2053",
+                "💦 VLESS - Clean IP 6 - 2053",
+                "💦 VLESS - Clean IP 7 - 2053",
+                "💦 VLESS - Clean IP 8 - 2053",
+                "💦 VLESS - Clean IP 9 - 2053",
+                "💦 VLESS - Clean IP 10 - 2053",
+                "💦 VLESS - Clean IP 11 - 2053",
+                "💦 VLESS - Clean IP 12 - 2053",
+                "💦 VLESS - Clean IP 13 - 2053",
+                "💦 VLESS - Clean IP 14 - 2053",
+                "💦 VLESS - Clean IP 15 - 2053",
+                "💦 VLESS - Clean IP 16 - 2053",
+                "💦 VLESS - Clean IP 17 - 2053",
+                "💦 VLESS - Clean IP 18 - 2053",
+                "💦 Trojan - Domain 1 - 443",
+                "💦 Trojan - Domain 2 - 443",
+                "💦 Trojan - IPv4 1 - 443",
+                "💦 Trojan - IPv4 2 - 443",
+                "💦 Trojan - IPv6 1 - 443",
+                "💦 Trojan - IPv6 2 - 443",
+                "💦 Trojan - Clean IP 1 - 443",
+                "💦 Trojan - Clean IP 2 - 443",
+                "💦 Trojan - Clean IP 3 - 443",
+                "💦 Trojan - Clean IP 4 - 443",
+                "💦 Trojan - Clean IP 5 - 443",
+                "💦 Trojan - Clean IP 6 - 443",
+                "💦 Trojan - Clean IP 7 - 443",
+                "💦 Trojan - Clean IP 8 - 443",
+                "💦 Trojan - Clean IP 9 - 443",
+                "💦 Trojan - Clean IP 10 - 443",
+                "💦 Trojan - Clean IP 11 - 443",
+                "💦 Trojan - Clean IP 12 - 443",
+                "💦 Trojan - Clean IP 13 - 443",
+                "💦 Trojan - Clean IP 14 - 443",
+                "💦 Trojan - Clean IP 15 - 443",
+                "💦 Trojan - Clean IP 16 - 443",
+                "💦 Trojan - Clean IP 17 - 443",
+                "💦 Trojan - Clean IP 18 - 443",
+                "💦 Trojan - Domain 1 - 2053",
+                "💦 Trojan - Domain 2 - 2053",
+                "💦 Trojan - IPv4 1 - 2053",
+                "💦 Trojan - IPv4 2 - 2053",
+                "💦 Trojan - IPv6 1 - 2053",
+                "💦 Trojan - IPv6 2 - 2053",
+                "💦 Trojan - Clean IP 1 - 2053",
+                "💦 Trojan - Clean IP 2 - 2053",
+                "💦 Trojan - Clean IP 3 - 2053",
+                "💦 Trojan - Clean IP 4 - 2053",
+                "💦 Trojan - Clean IP 5 - 2053",
+                "💦 Trojan - Clean IP 6 - 2053",
+                "💦 Trojan - Clean IP 7 - 2053",
+                "💦 Trojan - Clean IP 8 - 2053",
+                "💦 Trojan - Clean IP 9 - 2053",
+                "💦 Trojan - Clean IP 10 - 2053",
+                "💦 Trojan - Clean IP 11 - 2053",
+                "💦 Trojan - Clean IP 12 - 2053",
+                "💦 Trojan - Clean IP 13 - 2053",
+                "💦 Trojan - Clean IP 14 - 2053",
+                "💦 Trojan - Clean IP 15 - 2053",
+                "💦 Trojan - Clean IP 16 - 2053",
+                "💦 Trojan - Clean IP 17 - 2053",
+                "💦 Trojan - Clean IP 18 - 2053"
+            ]
+        },
+        {
+            "name": "💦 Best Ping 💥",
+            "type": "url-test",
+            "url": "https://www.gstatic.com/generate_204",
+            "interval": 30,
+            "tolerance": 50,
+            "proxies": [
+                "💦 VLESS - Domain 1 - 443",
+                "💦 VLESS - Domain 2 - 443",
+                "💦 VLESS - IPv4 1 - 443",
+                "💦 VLESS - IPv4 2 - 443",
+                "💦 VLESS - IPv6 1 - 443",
+                "💦 VLESS - IPv6 2 - 443",
+                "💦 VLESS - Clean IP 1 - 443",
+                "💦 VLESS - Clean IP 2 - 443",
+                "💦 VLESS - Clean IP 3 - 443",
+                "💦 VLESS - Clean IP 4 - 443",
+                "💦 VLESS - Clean IP 5 - 443",
+                "💦 VLESS - Clean IP 6 - 443",
+                "💦 VLESS - Clean IP 7 - 443",
+                "💦 VLESS - Clean IP 8 - 443",
+                "💦 VLESS - Clean IP 9 - 443",
+                "💦 VLESS - Clean IP 10 - 443",
+                "💦 VLESS - Clean IP 11 - 443",
+                "💦 VLESS - Clean IP 12 - 443",
+                "💦 VLESS - Clean IP 13 - 443",
+                "💦 VLESS - Clean IP 14 - 443",
+                "💦 VLESS - Clean IP 15 - 443",
+                "💦 VLESS - Clean IP 16 - 443",
+                "💦 VLESS - Clean IP 17 - 443",
+                "💦 VLESS - Clean IP 18 - 443",
+                "💦 VLESS - Domain 1 - 2053",
+                "💦 VLESS - Domain 2 - 2053",
+                "💦 VLESS - IPv4 1 - 2053",
+                "💦 VLESS - IPv4 2 - 2053",
+                "💦 VLESS - IPv6 1 - 2053",
+                "💦 VLESS - IPv6 2 - 2053",
+                "💦 VLESS - Clean IP 1 - 2053",
+                "💦 VLESS - Clean IP 2 - 2053",
+                "💦 VLESS - Clean IP 3 - 2053",
+                "💦 VLESS - Clean IP 4 - 2053",
+                "💦 VLESS - Clean IP 5 - 2053",
+                "💦 VLESS - Clean IP 6 - 2053",
+                "💦 VLESS - Clean IP 7 - 2053",
+                "💦 VLESS - Clean IP 8 - 2053",
+                "💦 VLESS - Clean IP 9 - 2053",
+                "💦 VLESS - Clean IP 10 - 2053",
+                "💦 VLESS - Clean IP 11 - 2053",
+                "💦 VLESS - Clean IP 12 - 2053",
+                "💦 VLESS - Clean IP 13 - 2053",
+                "💦 VLESS - Clean IP 14 - 2053",
+                "💦 VLESS - Clean IP 15 - 2053",
+                "💦 VLESS - Clean IP 16 - 2053",
+                "💦 VLESS - Clean IP 17 - 2053",
+                "💦 VLESS - Clean IP 18 - 2053",
+                "💦 Trojan - Domain 1 - 443",
+                "💦 Trojan - Domain 2 - 443",
+                "💦 Trojan - IPv4 1 - 443",
+                "💦 Trojan - IPv4 2 - 443",
+                "💦 Trojan - IPv6 1 - 443",
+                "💦 Trojan - IPv6 2 - 443",
+                "💦 Trojan - Clean IP 1 - 443",
+                "💦 Trojan - Clean IP 2 - 443",
+                "💦 Trojan - Clean IP 3 - 443",
+                "💦 Trojan - Clean IP 4 - 443",
+                "💦 Trojan - Clean IP 5 - 443",
+                "💦 Trojan - Clean IP 6 - 443",
+                "💦 Trojan - Clean IP 7 - 443",
+                "💦 Trojan - Clean IP 8 - 443",
+                "💦 Trojan - Clean IP 9 - 443",
+                "💦 Trojan - Clean IP 10 - 443",
+                "💦 Trojan - Clean IP 11 - 443",
+                "💦 Trojan - Clean IP 12 - 443",
+                "💦 Trojan - Clean IP 13 - 443",
+                "💦 Trojan - Clean IP 14 - 443",
+                "💦 Trojan - Clean IP 15 - 443",
+                "💦 Trojan - Clean IP 16 - 443",
+                "💦 Trojan - Clean IP 17 - 443",
+                "💦 Trojan - Clean IP 18 - 443",
+                "💦 Trojan - Domain 1 - 2053",
+                "💦 Trojan - Domain 2 - 2053",
+                "💦 Trojan - IPv4 1 - 2053",
+                "💦 Trojan - IPv4 2 - 2053",
+                "💦 Trojan - IPv6 1 - 2053",
+                "💦 Trojan - IPv6 2 - 2053",
+                "💦 Trojan - Clean IP 1 - 2053",
+                "💦 Trojan - Clean IP 2 - 2053",
+                "💦 Trojan - Clean IP 3 - 2053",
+                "💦 Trojan - Clean IP 4 - 2053",
+                "💦 Trojan - Clean IP 5 - 2053",
+                "💦 Trojan - Clean IP 6 - 2053",
+                "💦 Trojan - Clean IP 7 - 2053",
+                "💦 Trojan - Clean IP 8 - 2053",
+                "💦 Trojan - Clean IP 9 - 2053",
+                "💦 Trojan - Clean IP 10 - 2053",
+                "💦 Trojan - Clean IP 11 - 2053",
+                "💦 Trojan - Clean IP 12 - 2053",
+                "💦 Trojan - Clean IP 13 - 2053",
+                "💦 Trojan - Clean IP 14 - 2053",
+                "💦 Trojan - Clean IP 15 - 2053",
+                "💦 Trojan - Clean IP 16 - 2053",
+                "💦 Trojan - Clean IP 17 - 2053",
+                "💦 Trojan - Clean IP 18 - 2053"
+            ]
+        }
+    ],
+    "rules": [
+        "GEOSITE,category-ir,DIRECT",
+        "GEOIP,IR,DIRECT",
+        "GEOSITE,cn,DIRECT",
+        "GEOIP,CN,DIRECT",
+        "GEOSITE,category-ads-all,REJECT",
+        "GEOSITE,category-ads-ir,REJECT",
+        "AND,((NETWORK,UDP),(DST-PORT,443)),REJECT",
+        "MATCH,✅ Selector"
+    ]
+}

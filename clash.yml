@@ -50,94 +50,208 @@ tun:
     - 1.1.1.1
     - 1.0.0.1
 proxies:
-  - name: "[_1"
+  - name: "@Parsashonam_1"
+    port: 443
+    server: Zmaoz.Faculty.Ucdavis.Edu
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: Zmaoz.Faculty.Ucdavis.Edu.
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Parsashonam/ws?ed=2560
+      headers:
+        host: Parsashonam0.com
+    alpn:
+      - h2,http/1.1
+    uuid: Parsashonam-126
+    client-fingerprint: firefox
+  - name: "@Parsashonam_2"
+    port: 8888
+    server: 2a01:4f8:1c1b:26eb::1
+    type: vless
+    network: tcp
+    udp: true
+    skip-cert-verify: true
+    uuid: Parsashonam-126
+  - name: "@Parsashonam_3"
+    port: 8880
+    server: 185.146.173.39
+    type: vless
+    network: httpupgrade
+    udp: true
+    skip-cert-verify: true
+    uuid: Parsashonam-126
+  - name: "@proxy_kafee+|+ALL(مش+آرمین)_1"
     port: 80
-    server: 151.101.0.155
+    server: 151.101.2.165
     type: vless
     network: ws
     udp: true
     skip-cert-verify: true
     ws-opts:
-      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
+      path: /Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android?ed=443
       headers:
-        host: 6.fidsxss6x.ir
-    uuid: 42cf8835-b15e-46f1-b93f-60ec92bf0a61
+        host: ArchiveAndroid.Org
+    uuid: Archive-Android
+  - name: "[_1"
+    port: 9595
+    server: 116.203.201.23
+    type: vless
+    network: tcp
+    udp: true
+    skip-cert-verify: true
+    uuid: f6f183ff-6bdf-4596-88d3-165feab4417f
   - name: "[_2"
-    port: 2052
+    port: 443
+    server: hajlab.ucdavis.edu
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: hajlab.ucdavis.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: "@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--\
+        @Maznet--@MAZNET?ed=2560"
+      headers:
+        host: loye.ir
+    uuid: a8ca4f32-c05c-4d99-a307-fc8dd262752a
+  - name: "@proxy_kafee+|+ALL++(ژاکلین)_1"
+    port: 8080
     server: visa.com
     type: vless
     network: httpupgrade
     udp: true
     skip-cert-verify: true
-    uuid: V2RAXX--
+    uuid: 25ef4fdd-9a2c-4d8d-bf99-90df32ab8302
   - name: "[_3"
     port: 80
-    server: fastlyipcloudflaretamiz.fast.hosting-ip.com
+    server: 151.101.2.165
     type: vless
     network: ws
     udp: true
     skip-cert-verify: true
     ws-opts:
-      path: /Telegram,V2RAXX,Telegram,V2RAXX?ed=443
+      path: /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048
       headers:
-        host: V2RAXX.IR
-    uuid: V2RAXX--
-  - name: "[_4"
-    port: 443
-    server: 57.128.178.253
-    type: vless
-    network: tcp
-    tls: true
+        host: XpnTeam.ir
+    uuid: de5eedc7-4292-4b5d-f7ac-851e7236e2c9
+  - name: "@meli_proxyyسرورای‌بیشتر_1"
+    port: 8080
+    server: www.speedtest.net
+    type: vmess
+    network: httpupgrade
+    tls: false
     udp: true
-    servername: en.linceedab.com
+    version: "2"
+    servername: ""
     skip-cert-verify: true
-    alpn:
-      - h2,http/1.1
-    uuid: 6842f2ae-8c18-4e30-8a42-d4632a849f98
-    client-fingerprint: chrome
+    cipher: auto
+    uuid: TELEGRAM-WHAL-FREE3
+    alterId: 0
   - name: "@mehrosaboran_1"
     port: 80
-    server: 104.17.234.12
+    server: www.speedtest.net
     type: vless
     network: ws
     udp: true
     skip-cert-verify: true
     ws-opts:
-      path: "@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@Un\
-        limitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@Unlim\
-        itedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed"
+      path: /xmlrpc.php?ed=1080
       headers:
-        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor2.rubika.cloudns.unlimiteddev-vpn.com.
-    uuid: 3641adbd-9aff-42cb-9bee-654b6ebf5831
-  - name: "@mehrosaboran_2"
+        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.
+    uuid: 071adfc4-b337-4a90-bdcc-e66a4d327c55
+  - name: "@meli_proxyy_1"
     port: 80
-    server: 151.101.194.165
+    server: 151.101.66.219
     type: vless
     network: ws
     udp: true
     skip-cert-verify: true
     ws-opts:
-      path: "@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@Un\
-        limitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@Unlim\
-        itedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480"
+      path: /melo/ws?ed=2048
       headers:
-        host: UNLIMITEDDEV.channel-telegram-1.ir
-    uuid: 3641adbd-9aff-42cb-9bee-654b6ebf5831
-  - name: "[_5"
+        host: login.meloammn.com
+    uuid: f899a324-afac-41cc-cde8-31cbedc300fb
+  - name: "@meli_proxyy_2"
     port: 443
-    server: 104.17.148.22
+    server: zmaoz.faculty.ucdavis.edu
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: 12863995741163367406554084809141.v2line.net
+    servername: zmaoz.faculty.ucdavis.edu.
     skip-cert-verify: true
     ws-opts:
-      path: /v2line-paris-france-vl-ws-tls-advanced
+      path: /melo/ws?ed=2048
       headers:
-        host: 12863995741163367406554084809141.v2line.net
-    uuid: 357027be-f167-41c3-a878-aa64f6284761
-  - name: "@meli_proxyy_1"
+        host: www.meloammn.ir
+    alpn:
+      - h2,http/1.1
+    uuid: c7953896-7bb2-4ce2-c7ca-117b2678b47f
+    client-fingerprint: chrome
+  - name: "[_4"
+    port: 443
+    server: live.skornorth.com
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: live.skornorth.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
+      headers:
+        host: cinematicket.org
+    uuid: tell--ZEDMODEON
+  - name: "[_5"
+    port: 443
+    server: connectcarolina.sites.unc.edu
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: connectcarolina.sites.unc.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
+      headers:
+        host: ghatreh.com
+    uuid: tell--ZEDMODEON
+  - name: "@mehrosaboran_2"
+    port: 80
+    server: 162.159.153.2
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /xmlrpc.php/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed=1080
+      headers:
+        host: csgo.mozilla.5.0.xn--2b5baaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.ajab.iP-ddns.com
+    uuid: 79475be6-f4e9-4700-a3dc-fa42e540a950
+  - name: "@meli_proxyy_3"
+    port: 80
+    server: 151.101.3.8
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443
+      headers:
+        host: Tehranc2.Org
+    uuid: 39d5ea22-1c73-4b12-8b5b-2be82c78add8
+  - name: "[_6"
+    port: 80
+    server: prOD.fAstlY.nEt
+    type: vless
+    network: ws
+    udp: true
+    uuid: 4d6ffdeb-abc5-5658-a1f3-979681b710f2
+  - name: defaultName_1
     port: 80
     server: 151.101.3.8
     type: vless
@@ -148,8 +262,16 @@ proxies:
       path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443
       headers:
         host: Tehranc3.Org
-    uuid: da34dd8d-6977-4839-a87b-cea3932578d7
-  - name: "[_6"
+    uuid: e9978c18-0465-47e8-9c20-63d5549c8a60
+  - name: "[_7"
+    port: 8080
+    server: hello.username.fun
+    type: vless
+    network: httpupgrade
+    udp: true
+    skip-cert-verify: true
+    uuid: 56049972-b2f0-4ba5-ab21-f01bb68cfd6a
+  - name: "[_8"
     port: 443
     server: hajlab.ucdavis.edu
     type: vless
@@ -159,295 +281,38 @@ proxies:
     servername: hajlab.ucdavis.edu
     skip-cert-verify: true
     ws-opts:
-      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
+      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
       headers:
-        host: joinshhproxybedeeeeeee.ir
-    uuid: d3d313f5-3a34-4ea8-9939-726ee2d4e980
-  - name: TLS4-ALL|@ArV2ray_1
-    port: 443
-    server: live.skornorth.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: live.skornorth.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-      headers:
-        host: 1.Hjgvdxx2.net
-    alpn:
-      - h2,http/1.1
-    uuid: telegram-id-ArV2ray
-    client-fingerprint: chrome
-  - name: WS2-All+|+@ArV2ray_1
-    port: 80
-    server: ArV2ry.fastly80-2.hosting-ip.com
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80
-      headers:
-        host: fer49sowk.net
-    uuid: telegram-id-ArV2ray
-  - name: TLS3-ALL|@ArV2ray_1
-    port: 443
-    server: live.skornorth.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: live.skornorth.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-      headers:
-        host: mtn26kws.net
-    alpn:
-      - h2,http/1.1
-    uuid: telegram-id-ArV2ray
-    client-fingerprint: chrome
-  - name: TLS2-ALL|@ArV2ray_1
-    port: 443
-    server: live.skornorth.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: live.skornorth.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-      headers:
-        host: fem5sowk.net
-    alpn:
-      - h2,http/1.1
-    uuid: telegram-id-ArV2ray
-    client-fingerprint: chrome
-  - name: "[_7"
-    port: 80
-    server: join.vpncustomize.com
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /xmlrpc.php?ed=1080
-      headers:
-        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.
-    uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
-  - name: "[_8"
-    port: 443
-    server: live.wkrq.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: live.wkrq.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2048
-      headers:
-        host: epicnodegermany.com
-    alpn:
-      - h2,http/1.1
-    uuid: e19814de-d38b-4436-9bdb-1fbb23e2876b
-    client-fingerprint: chrome
-  - name: WS-All+|+@ArV2ray_1
-    port: 80
-    server: Ay.fastly80-2.hosting-ip.com
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80
-      headers:
-        host: deinssw26.net
-    uuid: telegram-id-ArV2ray
-  - name: "@meli_proxyy_2"
-    port: 80
-    server: join.VPNCUSTOMIZE.com
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /xmlrpc.php/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed=1080
-      headers:
-        host: csgo.mozilla.5.0.xn--2b5baaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.ajab.iP-ddns.com
-    uuid: 19d13bed-b8c5-4443-920e-12f833fed576
-  - name: defaultName_1
-    port: 80
-    server: 151.101.194.133
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80
-      headers:
-        host: 1-2941.ir
-    uuid: telegram-id-ArV2ray
-  - name: "@meli_proxyy_3"
-    port: 80
-    server: 151.101.128.204
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /melo/ws?ed=2048
-      headers:
-        host: www.meloammn.ir
-    uuid: aa6f3d6e-f835-46ab-e35e-71828493ec4f
-  - name: defaultName_2
-    port: 443
-    server: 151.101.194.133
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: mio.splashthat.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-      headers:
-        host: cdiuw64.net
-    alpn:
-      - h2,http/1.1
-    uuid: telegram-id-ArV2ray
-    client-fingerprint: chrome
-  - name: 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
-    port: 80
-    server: join.VPNCUSTOMIZE.com
-    type: vless
-    udp: true
-    uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
+        host: Joinxvproxybedee.ir
+    uuid: 17844e21-8ddc-4474-8c1f-88dcfa96239a
   - name: "[_9"
-    port: 80
-    server: 104.26.13.101
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /xmlrpc.php?ed=1080
-      headers:
-        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.
-    uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
-  - name: TLS-ALL|@ArV2ray_1
     port: 443
-    server: live.skornorth.com
+    server: 104.17.147.22
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: live.skornorth.com
+    servername: 46771119909676129223555549792065.v2line.net
     skip-cert-verify: true
     ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
+      path: /v2line-helsinki-finland-vl-ws-tls-advanced
       headers:
-        host: cdiuw64.net
-    alpn:
-      - h2,http/1.1
-    uuid: telegram-id-ArV2ray
-    client-fingerprint: chrome
+        host: 46771119909676129223555549792065.v2line.net
+    uuid: 3a15a346-2f6f-41bc-ad0c-a885aec3002a
   - name: "[_10"
-    port: 80
-    server: 162.159.153.2
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /xmlrpc.php?ed=1080
-      headers:
-        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.
-    uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
-  - name: "[_11"
-    port: 443
-    server: pscresearch.faculty.ucdavis.edu
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: pscresearch.faculty.ucdavis.edu
-    skip-cert-verify: true
-    ws-opts:
-      path: ws/?ed=2048
-      headers:
-        host: jihvbtctvy9778.com
-    uuid: ef78d69f-1bbf-4f5a-a669-df9670ed636a
-  - name: WS6-All+|+@ArV2ray_1
-    port: 80
-    server: s14.fastly80-2.hosting-ip.com
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80
-      headers:
-        host: 1-2941.ir
-    uuid: telegram-id-ArV2ray
-  - name: TLS6-ALL|@ArV2ray_1
-    port: 443
-    server: live.skornorth.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: live.skornorth.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-      headers:
-        host: 1.2.wuffhq8.ir
-    alpn:
-      - h2,http/1.1
-    uuid: telegram-id-ArV2ray
-    client-fingerprint: chrome
-  - name: WS4-All+|+@ArV2ray_1
-    port: 80
-    server: A13.fastly80-2.hosting-ip.com
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80
-      headers:
-        host: 6.fidss6x.ir
-    uuid: telegram-id-ArV2ray
-  - name: "[_12"
     port: 443
     server: www.speedtest.net
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: 86278058785885367257976103254902.v2line.net
+    servername: 31451350071858616668266749896909.v2line.net
     skip-cert-verify: true
     ws-opts:
-      path: /v2line-chicago-unitedstates-vl-ws-tls-advanced
+      path: /v2line-frankfurt-germany-vl-ws-tls-advanced
       headers:
-        host: 86278058785885367257976103254902.v2line.net
-    uuid: b9509f1d-fed1-49bd-acd4-038ad13c81e7
-  - name: "[_13"
-    port: 80
-    server: join.VPNCUSTOMIZE.com
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /xmlrpc.php?ed=1080
-      headers:
-        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.
-    uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
+        host: 31451350071858616668266749896909.v2line.net
+    uuid: f848942f-30f1-446e-a546-7c500facce27
   - name: "@mehrosaboran_3"
     port: 443
     server: live.skornorth.com
@@ -462,47 +327,21 @@ proxies:
       headers:
         host: cinematicket.org
     uuid: tel--ZEDMODEON
-  - name: "@mehrosaboran_4"
-    port: 80
-    server: visa.org
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /xmlrpc.php?ed=1080
-      headers:
-        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.
-    uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
-  - name: "@mehrosaboran_5"
+  - name: "[_11"
     port: 443
-    server: zmaoz.faculty.ucdavis.edu
+    server: www.speedtest.net
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: zmaoz.faculty.ucdavis.edu
+    servername: 16833408090632354836285938102432.v2line.net
     skip-cert-verify: true
     ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
+      path: /v2line-istanbul-turkey-vl-ws-tls-advanced
       headers:
-        host: snappshop.ir
-    uuid: Joinn--ZEDMODEON
-  - name: "@mehrosaboran_6"
-    port: 443
-    server: zmaoz.faculty.ucdavis.edu
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: zmaoz.faculty.ucdavis.edu
-    skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
-      headers:
-        host: okala.com
-    uuid: Joinn--ZEDMODEON
-  - name: "[_14"
+        host: 16833408090632354836285938102432.v2line.net
+    uuid: e3d88bae-d1ef-420a-b23a-e53a4d819dcc
+  - name: "[_12"
     port: 443
     server: www.speedtest.net
     type: vless
@@ -524,7 +363,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     uuid: 12c8140b-7482-4c43-9fa0-e95e42bb87fd
-  - name: "[_15"
+  - name: "[_13"
     port: 443
     server: 188.245.69.146
     type: vless
@@ -539,24 +378,7 @@ proxies:
       short-id: 5803fa4b
     uuid: 856e3bf8-d896-4fed-b655-210c37bc8f3f
     client-fingerprint: firefox
-  - name: "[_16"
-    port: 443
-    server: live.989bull.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: live.989bull.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam?ed=443
-      headers:
-        host: Savteam.CI
-    alpn:
-      - http/1.1
-    uuid: SAVTEAM7
-    client-fingerprint: chrome
-  - name: "[_17"
+  - name: "[_14"
     port: 80
     server: 199.232.8.123
     type: vless
@@ -568,17 +390,6 @@ proxies:
       headers:
         host: IRANINGOAT2.IR
     uuid: d578322a-266b-479d-9eda-f1b41324e721
-  - name: "[_18"
-    port: 80
-    server: 151.101.194.219
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      headers:
-        host: PABLOO-MOSTAFA.COM
-    uuid: 1dc37235-84ae-5772-b0e1-d02d2c039268
   - name: "@meli_proxyy_5"
     port: 443
     server: 147135001195.sec22org.com
@@ -602,6 +413,18 @@ proxies:
     uuid: 3b9bc773-05eb-4d5f-8c1f-57342c0c4f40
   - name: "@meli_proxyy_7"
     port: 443
+    server: 147.135.1.195
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    servername: 147135001195.sec22org.com
+    skip-cert-verify: true
+    alpn:
+      - h2,http/1.1
+    uuid: ea286109-d20f-415e-849e-4af20ab04b65
+  - name: "@meli_proxyy_8"
+    port: 443
     server: 147135004002.sec20org.com
     type: vless
     network: tcp
@@ -611,7 +434,7 @@ proxies:
     alpn:
       - h2,http/1.1
     uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-  - name: "[_19"
+  - name: "[_15"
     port: 443
     server: 135.148.177.196
     type: vless
@@ -623,7 +446,7 @@ proxies:
     alpn:
       - h2,http/1.1
     uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-  - name: "@meli_proxyy_8"
+  - name: "@meli_proxyy_9"
     port: 443
     server: 51.81.36.78
     type: vless
@@ -635,7 +458,7 @@ proxies:
     alpn:
       - h2,http/1.1
     uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-  - name: 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+  - name: 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
     port: 23294
     server: 20.193.131.152
     type: vmess
@@ -648,7 +471,34 @@ proxies:
     cipher: auto
     uuid: e6f0541f-af71-4e16-9cd8-5a612934b7a6
     alterId: 0
-  - name: "@meli_proxyy_9"
+  - name: "@meli_proxyy_10"
+    port: 2053
+    server: Crunch.floorshoping22.com
+    type: trojan
+    network: grpc
+    udp: true
+    sni: Crunch.floorshoping22.com
+    password: FuUaWS3YWG
+    skip-cert-verify: false
+    alpn:
+      - h2
+    client-fingerprint: chrome
+  - name: "[_16"
+    port: 443
+    server: 65.20.115.19
+    type: trojan
+    udp: true
+    sni: myket.io
+    password: wkmY1R4EcP
+    skip-cert-verify: false
+  - name: 🟣🔥+کانال+سرور+اختصاصی+با+سرعت+بالا+تضمینی+@Outlinev_2rayNG
+    port: 2376
+    server: 23.157.88.61
+    type: ss
+    udp: true
+    password: faBAoD54k87UJG7
+    cipher: aes-256-gcm
+  - name: "@meli_proxyy_11"
     port: 7001
     server: 67.220.95.125
     type: ss
@@ -675,62 +525,97 @@ proxies:
     cipher: auto
     uuid: 9e88a10b-655c-5120-89d0-408634169561
     alterId: 0
-  - name: "@meli_proxyy_10"
+  - name: "@meli_proxyy_12"
     port: 8118
     server: 23.166.88.221
     type: ss
     udp: true
     password: cdBIDV42DCwnfIN
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_11"
+  - name: "@meli_proxyy_13"
+    port: 6679
+    server: 69.50.92.72
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
+    cipher: aes-256-gcm
+  - name: "@meli_proxyy_14"
     port: 8882
     server: 69.50.92.72
     type: ss
     udp: true
     password: kDWvXYZoTBcGkC4
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_12"
+  - name: "@meli_proxyy_15"
     port: 7307
     server: 69.50.92.55
     type: ss
     udp: true
     password: FoOiGlkAA9yPEGP
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_13"
+  - name: "@meli_proxyy_16"
     port: 8118
     server: 23.150.152.16
     type: ss
     udp: true
     password: cdBIDV42DCwnfIN
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_14"
+  - name: "@meli_proxyy_17"
     port: 8008
     server: 69.50.95.101
     type: ss
     udp: true
     password: XKFKl2rULjIp74
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_15"
+  - name: "@meli_proxyy_18"
     port: 990
     server: 62.12.116.66
     type: ss
     udp: true
     password: f8f7aCzcPKbsF8p3
     cipher: chacha20-ietf-poly1305
-  - name: "@meli_proxyy_16"
+  - name: "@meli_proxyy_19"
     port: 443
     server: 67.220.95.100
     type: ss
     udp: true
     password: pKEW8JPByTVTLtM
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_17"
+  - name: "@meli_proxyy_20"
+    port: 443
+    server: 23.150.152.16
+    type: ss
+    udp: true
+    password: pKEW8JPByTVTLtM
+    cipher: aes-256-gcm
+  - name: "@meli_proxyy_21"
+    port: 5500
+    server: 23.157.40.47
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: "@meli_proxyy_22"
+    port: 9090
+    server: 23.150.152.56
+    type: ss
+    udp: true
+    password: Y6R9pAtvxxzmGC
+    cipher: aes-256-gcm
+  - name: "@meli_proxyy_23"
     port: 8008
     server: 23.157.40.101
     type: ss
     udp: true
     password: XKFKl2rULjIp74
     cipher: aes-256-gcm
+  - name: 🪙20@oneclickvpnkeys
+    port: 55330
+    server: 107.181.155.244
+    type: ss
+    udp: true
+    password: rtR4YX74vwqRJu9MGH3e1N3CQdGMWCUFkyLisijiFuvhkU9McV5TpygfkernJ4UQe63JtcDQkrQ9HfchzqQz1kLCnTRor8jg
+    cipher: chacha20-ietf-poly1305
   - name: "@Artemisvpn1_1"
     port: 8888
     server: 69.50.93.86
@@ -759,7 +644,7 @@ proxies:
     udp: true
     password: shadowsocks
     cipher: aes-128-gcm
-  - name: "@meli_proxyy_18"
+  - name: "@meli_proxyy_24"
     port: 443
     server: 212.102.47.132
     type: ss
@@ -822,26 +707,40 @@ proxies:
     udp: true
     password: TEzjfAYq2IjtuoS
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_19"
+  - name: "@meli_proxyy_25"
     port: 8009
     server: 23.150.152.56
     type: ss
     udp: true
     password: XKFKl2rULjIp74
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_20"
+  - name: "@meli_proxyy_26"
     port: 5498
     server: 69.50.95.180
     type: ss
     udp: true
     password: lGqs95QkFHo2NV
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_21"
+  - name: "@meli_proxyy_27"
+    port: 5500
+    server: 23.150.152.16
+    type: ss
+    udp: true
+    password: KixLvKzwjekG00rm
+    cipher: aes-256-gcm
+  - name: "@meli_proxyy_28"
     port: 8009
     server: 23.157.40.101
     type: ss
     udp: true
     password: XKFKl2rULjIp74
+    cipher: aes-256-gcm
+  - name: "@meli_proxyy_29"
+    port: 6679
+    server: 69.50.93.86
+    type: ss
+    udp: true
+    password: TEzjfAYq2IjtuoS
     cipher: aes-256-gcm
   - name: "@Freakconfig"
     port: 443
@@ -858,42 +757,42 @@ proxies:
     uuid: 6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1
     flow: xtls-rprx-vision
     client-fingerprint: chrome
-  - name: "@meli_proxyy_22"
+  - name: "@meli_proxyy_30"
     port: 7002
     server: 23.150.152.112
     type: ss
     udp: true
     password: RexnBgU7EV5ADxG
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_23"
+  - name: "@meli_proxyy_31"
     port: 8080
     server: 51.77.53.200
     type: ss
     udp: true
     password: KixLvKzwjekG00rm
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_24"
+  - name: "@meli_proxyy_32"
     port: 9101
     server: 69.50.95.103
     type: ss
     udp: true
     password: e4FCWrgpkji3QY
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_25"
+  - name: "@meli_proxyy_33"
     port: 5601
     server: 69.50.95.101
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_26"
+  - name: "@meli_proxyy_34"
     port: 8008
     server: 69.50.95.103
     type: ss
     udp: true
     password: XKFKl2rULjIp74
     cipher: aes-256-gcm
-  - name: 🇫🇷+فرانسه+🕊️@Gozargah_Azadi
+  - name: 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_1
     port: 80
     server: 162.19.228.119
     type: vless
@@ -932,54 +831,61 @@ proxies:
     udp: true
     password: 9Bvkw5aupNy8
     cipher: chacha20-ietf-poly1305
-  - name: "@meli_proxyy_27"
+  - name: "@meli_proxyy_35"
     port: 3389
     server: 23.157.40.47
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_28"
+  - name: "@meli_proxyy_36"
     port: 9101
     server: 69.50.95.39
     type: ss
     udp: true
     password: e4FCWrgpkji3QY
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_29"
+  - name: "@meli_proxyy_37"
     port: 5600
     server: 69.50.95.179
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: "[_20"
+  - name: "@meli_proxyy_38"
+    port: 7307
+    server: 23.157.40.103
+    type: ss
+    udp: true
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: "[_17"
+    port: 8091
+    server: 23.150.152.16
+    type: ss
+    udp: true
+    password: PCnnH6SQSnfoS27
+    cipher: aes-256-gcm
+  - name: "[_18"
     port: 5498
     server: 23.150.152.112
     type: ss
     udp: true
     password: lGqs95QkFHo2NV
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_30"
+  - name: "@meli_proxyy_39"
     port: 443
     server: 69.50.95.174
     type: ss
     udp: true
     password: pKEW8JPByTVTLtM
     cipher: aes-256-gcm
-  - name: "@Artemisvpn1_8"
-    port: 7002
-    server: 38.110.1.3
+  - name: "[_19"
+    port: 5004
+    server: 23.150.152.16
     type: ss
     udp: true
-    password: RexnBgU7EV5ADxG
-    cipher: aes-256-gcm
-  - name: "[_21"
-    port: 3306
-    server: 23.150.152.112
-    type: ss
-    udp: true
-    password: Y6R9pAtvxxzmGC
+    password: g5MeD6Ft3CWlJId
     cipher: aes-256-gcm
   - name: 🆒13@oneclickvpnkeys
     port: 8090
@@ -988,20 +894,34 @@ proxies:
     udp: true
     password: PCnnH6SQSnfoS27
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_31"
+  - name: "@meli_proxyy_40"
     port: 9102
     server: 23.150.152.16
     type: ss
     udp: true
     password: e4FCWrgpkji3QY
     cipher: aes-256-gcm
-  - name: "@meli_proxyy_32"
+  - name: "@meli_proxyy_41"
     port: 5001
     server: 23.150.152.16
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
+  - name: "[_20"
+    port: 443
+    server: 104.21.74.97
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: dd.limoo.online
+    skip-cert-verify: true
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        host: dd.limoo.online
+    uuid: 1ef034ba-20d5-41b0-a922-d7e6def1a706
   - name: 🆙64@oneclickvpnkeys
     port: 5601
     server: 23.157.40.119
@@ -1042,42 +962,42 @@ proxies:
     udp: true
     password: FoOiGlkAA9yPEGP
     cipher: aes-256-gcm
-  - name: "@Artemisvpn1_9"
+  - name: "@Artemisvpn1_8"
     port: 5601
     server: 23.157.40.26
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: "@Artemisvpn1_10"
+  - name: "@Artemisvpn1_9"
     port: 8009
     server: 23.157.40.26
     type: ss
     udp: true
     password: XKFKl2rULjIp74
     cipher: aes-256-gcm
-  - name: "@Artemisvpn1_11"
+  - name: "@Artemisvpn1_10"
     port: 3306
     server: 23.157.40.120
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: "@Artemisvpn1_12"
+  - name: "@Artemisvpn1_11"
     port: 8888
     server: 23.157.40.120
     type: ss
     udp: true
     password: Y6R9pAtvxxzmGC
     cipher: aes-256-gcm
-  - name: "@Artemisvpn1_13"
+  - name: "@Artemisvpn1_12"
     port: 8008
     server: 23.157.40.120
     type: ss
     udp: true
     password: XKFKl2rULjIp74
     cipher: aes-256-gcm
-  - name: "@Artemisvpn1_14"
+  - name: "@Artemisvpn1_13"
     port: 7307
     server: 23.154.136.176
     type: ss
@@ -1091,16 +1011,6 @@ proxies:
     udp: true
     password: g5MeD6Ft3CWlJId
     cipher: aes-256-gcm
-  - name: 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_1
-    port: 80
-    server: 51.75.30.8
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /http
-    uuid: 1949f066-bcb0-49be-88e9-74abd940f80e
   - name: ♎41@oneclickvpnkeys
     port: 9101
     server: 23.150.152.53
@@ -1108,13 +1018,6 @@ proxies:
     udp: true
     password: e4FCWrgpkji3QY
     cipher: aes-256-gcm
-  - name: defaultName_3
-    port: 80
-    server: 51.75.30.8
-    type: vless
-    network: ws
-    udp: true
-    uuid: 1949f066-bcb0-49be-88e9-74abd940f80e
   - name: 📳5@oneclickvpnkeys
     port: 2375
     server: 51.77.53.200
@@ -1136,252 +1039,99 @@ proxies:
     udp: true
     password: cdBIDV42DCwnfIN
     cipher: aes-256-gcm
-  - name: "@meli_proxyyسرورای‌بیشتر_1"
+  - name: "@meli_proxyyسرورای‌بیشتر_2"
     port: 8080
     server: 23.157.40.120
     type: ss
     udp: true
     password: KixLvKzwjekG00rm
     cipher: aes-256-gcm
-  - name: "@meli_proxyyسرورای‌بیشتر_2"
+  - name: "@meli_proxyyسرورای‌بیشتر_3"
     port: 8091
     server: 23.157.40.120
     type: ss
     udp: true
     password: PCnnH6SQSnfoS27
     cipher: aes-256-gcm
+  - name: 🌲24@oneclickvpnkeys
+    port: 7306
+    server: 38.75.136.49
+    type: ss
+    udp: true
+    password: FoOiGlkAA9yPEGP
+    cipher: aes-256-gcm
+  - name: (S104)
+    port: 22222
+    server: 3.75.10.133
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-privatevpns
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: "Our Channel : @DirectVPN_1"
+    port: 22222
+    server: 13.42.225.191
+    type: trojan
+    network: tcp
+    udp: true
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+    skip-cert-verify: false
+    alpn:
+      - http/1.1
+  - name: "[_21"
+    port: 443
+    server: hajlab.ucdavis.edu
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: hajlab.ucdavis.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
+      headers:
+        host: joinshhproxybedeeeeeee.ir
+    uuid: 3bf32eab-0fc4-49df-ab8c-7eff456d1b19
+  - name: "@meli_proxyy_42"
+    port: 80
+    server: sPeEdtEsT.nEt
+    type: vless
+    network: ws
+    udp: true
+    uuid: 58bf942a-02ee-5b50-901d-43f86115a0d6
+  - name: "@meli_proxyy_43"
+    port: 443
+    server: 199.232.125.50
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: ELiV2--ELENA.COM
+    skip-cert-verify: true
+    ws-opts:
+      headers:
+        host: ELiV2--ELENA.COM
+    uuid: 58bf942a-02ee-5b50-901d-43f86115a0d6
+    client-fingerprint: qq
   - name: "[_22"
-    port: 80
-    server: 151.101.0.155
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
-      headers:
-        host: 6.fidsxss6x.ir
-    uuid: 42cf8835-b15e-46f1-b93f-60ec92bf0a61
-  - name: "[_23"
-    port: 2052
-    server: visa.com
-    type: vless
-    network: httpupgrade
-    udp: true
-    skip-cert-verify: true
-    uuid: V2RAXX--
-  - name: "[_24"
-    port: 80
-    server: fastlyipcloudflaretamiz.fast.hosting-ip.com
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /Telegram,V2RAXX,Telegram,V2RAXX?ed=443
-      headers:
-        host: V2RAXX.IR
-    uuid: V2RAXX--
-  - name: "[_25"
     port: 443
-    server: 57.128.178.253
-    type: vless
-    network: tcp
-    tls: true
-    udp: true
-    servername: en.linceedab.com
-    skip-cert-verify: true
-    alpn:
-      - h2,http/1.1
-    uuid: 6842f2ae-8c18-4e30-8a42-d4632a849f98
-    client-fingerprint: chrome
-  - name: "@meli_proxyy_33"
-    port: 80
-    server: A13.fastly80-2.hosting-ip.com
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
-      headers:
-        host: 6.fidsxss10x.ir
-    uuid: TELEGRAM-iD-NUFiLTER
-  - name: "@meli_proxyy_34"
-    port: 8904
-    server: radatlyp.zitaaistyle.org
-    type: vless
-    network: tcp
-    udp: true
-    servername: www.refersion.com
-    skip-cert-verify: true
-    reality-opts:
-      public-key: BGdko8WV5qMUDUPvShoJxEFnXI-9RS2CXhsM_miuQAk
-      short-id: b873eea205991374
-    uuid: ae2470e5-9f6f-443a-b6e5-60bbf6a57b71
-    client-fingerprint: chrome
-  - name: "[🏁]t.me/ConfigsHub_1"
-    port: 80
-    server: 185.146.173.76
-    type: vmess
-    network: httpupgrade
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: 293255ab-da98-4aa7-b04e-b60427f6c5bc
-    alterId: 0
-  - name: "@meli_proxyy_35"
-    port: 80
-    server: A13.fastly80-3.hosting-ip.com
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
-      headers:
-        host: 6.fidsxss8x.ir
-    uuid: 552f04d6-b37f-46c5-add5-192b65ceb612
-  - name: "@mehrosaboran_7"
-    port: 443
-    server: live.theworldwidewolf.com
+    server: hajlab.ucdavis.edu
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: www.robertwalters-usa.com
+    servername: hajlab.ucdavis.edu
     skip-cert-verify: true
     ws-opts:
-      path: /@custom_config?ed=2048
+      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
       headers:
-        host: doWnloadlynEt.iR.
-    alpn:
-      - h2,http/1.1
-    uuid: 83ce7995-22b2-4183-b7a1-23162fcdabd5
-    client-fingerprint: chrome
-  - name: "@mehrosaboran_8"
-    port: 80
-    server: 104.17.234.12
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: "@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@Un\
-        limitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@Unlim\
-        itedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed"
-      headers:
-        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor2.rubika.cloudns.unlimiteddev-vpn.com.
-    uuid: 3641adbd-9aff-42cb-9bee-654b6ebf5831
-  - name: "@mehrosaboran_9"
-    port: 80
-    server: 151.101.194.165
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: "@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@Un\
-        limitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@Unlim\
-        itedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480"
-      headers:
-        host: UNLIMITEDDEV.channel-telegram-1.ir
-    uuid: 3641adbd-9aff-42cb-9bee-654b6ebf5831
-  - name: defaultName_4
-    port: 80
-    server: 151.101.194.133
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80
-      headers:
-        host: api.nhl34.ir
-    uuid: telegram-id-ArV2ray
-  - name: "@meli_proxyy_36"
-    port: 80
-    server: A13.fastly80-2.hosting-ip.com
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
-      headers:
-        host: 6.fidsxss7x.ir
-    uuid: TELEGRAM-NUFiLTER
-  - name: "[_26"
-    port: 443
-    server: 151.101.194.133
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: mio.splashthat.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-      headers:
-        host: 938je.net
-    alpn:
-      - h2,http/1.1
-    uuid: telegram-id-ArV2ray
-    client-fingerprint: chrome
-  - name: "[_27"
-    port: 443
-    server: 104.17.148.22
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: 12863995741163367406554084809141.v2line.net
-    skip-cert-verify: true
-    ws-opts:
-      path: /v2line-paris-france-vl-ws-tls-advanced
-      headers:
-        host: 12863995741163367406554084809141.v2line.net
-    uuid: 357027be-f167-41c3-a878-aa64f6284761
-  - name: "@meli_proxyy_37"
-    port: 80
-    server: 151.101.3.8
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443
-      headers:
-        host: Tehranc3.Org
-    uuid: da34dd8d-6977-4839-a87b-cea3932578d7
-  - name: "@meli_proxyy_38"
-    port: 80
-    server: 151.101.3.8
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443
-      headers:
-        host: Tehranc2.Org
-    uuid: 6ebc5b56-e760-43a1-9055-c7923a6139dd
-  - name: "@meli_proxyy_39"
-    port: 80
-    server: 151.101.3.8
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443
-      headers:
-        host: Tehranc1.Org
-    uuid: 0132f1cf-f66c-4252-a052-3aa4edade4ec
-  - name: "@Parsashonam_1"
+        host: joinshhproxybedeeeee.ir
+    uuid: a10e505b-4c36-453c-b506-fbe9a0eab647
+  - name: "@Parsashonam_4"
     port: 443
     server: Zmaoz.Faculty.Ucdavis.Edu
     type: vless
@@ -1396,46 +1146,82 @@ proxies:
         host: Parsashonam0.com
     alpn:
       - h2,http/1.1
-    uuid: Parsashonam-124
+    uuid: Parsashonam-126
     client-fingerprint: firefox
-  - name: "@Parsashonam_2"
+  - name: "@Parsashonam_5"
+    port: 8888
+    server: 2a01:4f8:1c1b:26eb::1
+    type: vless
+    network: tcp
+    udp: true
+    skip-cert-verify: true
+    uuid: Parsashonam-126
+  - name: "@Parsashonam_6"
     port: 8880
     server: 185.146.173.39
     type: vless
     network: httpupgrade
     udp: true
     skip-cert-verify: true
-    uuid: Parsashonam-124
-  - name: TLS5-ALL|@ArV2ray
-    port: 443
-    server: live.skornorth.com
-    type: vless
-    network: ws
-    tls: true
+    uuid: Parsashonam-126
+  - name: "Our Channel : @DirectVPN_2"
+    port: 22222
+    server: 15.236.166.230
+    type: trojan
+    network: tcp
     udp: true
-    servername: live.skornorth.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-      headers:
-        host: 938je.net
+    sni: trojan.burgerip.co.uk
+    password: telegram-id-directvpn
+    skip-cert-verify: false
     alpn:
-      - h2,http/1.1
-    uuid: telegram-id-ArV2ray
-    client-fingerprint: chrome
-  - name: WS3-All+|+@ArV2ray
+      - http/1.1
+  - name: "[_23"
     port: 80
-    server: Ai.fastly80-3.hosting-ip.com
+    server: unlimiteddev.fastly80-3.hosting-ip.com
     type: vless
     network: ws
     udp: true
     skip-cert-verify: true
     ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80
+      path: "@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@Un\
+        limitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@Unlim\
+        itedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480"
       headers:
-        host: api.nhl34.ir
-    uuid: telegram-id-ArV2ray
-  - name: "[_28"
+        host: UNLIMITEDDEV.channel-telegram-1.ir
+    alpn:
+      - h3,h2,http/1.1
+    uuid: 2d1fd678-8bdc-4307-94bc-6e46427e3665
+    client-fingerprint: chrome
+  - name: "[_24"
+    port: 80
+    server: Join.unlimiteddev-vpn.net
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: "@UnlimitedDev----@UnlimitedDev-----@UnlimitedDev----@UnlimitedDev----@Un\
+        limitedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev----@Unlim\
+        itedDev----@UnlimitedDev----@UnlimitedDev----@UnlimitedDev?ed=2480"
+      headers:
+        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor6.rubika.cloudns.unlimiteddev-vpn.com.
+    alpn:
+      - h3,h2,http/1.1
+    uuid: 2d1fd678-8bdc-4307-94bc-6e46427e3665
+    client-fingerprint: chrome
+  - name: "@proxy_kafee+|+ALL(مش+آرمین)_2"
+    port: 80
+    server: 151.101.2.165
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android-----Telegram-----@Archive_Android?ed=443
+      headers:
+        host: ArchiveAndroid.Org
+    uuid: Archive-Android
+  - name: "[_25"
     port: 443
     server: hajlab.ucdavis.edu
     type: vless
@@ -1445,25 +1231,20 @@ proxies:
     servername: hajlab.ucdavis.edu
     skip-cert-verify: true
     ws-opts:
-      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
+      path: "@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--@Maznet--@MAZNET--\
+        @Maznet--@MAZNET?ed=2048"
       headers:
-        host: joinshhproxybedeeeeeee.ir
-    uuid: d3d313f5-3a34-4ea8-9939-726ee2d4e980
-  - name: "[_29"
-    port: 443
-    server: hajlab.ucdavis.edu
+        host: joinbedemaznettel.ir
+    uuid: d1550044-6af9-4ba2-beb2-00b15af46097
+  - name: "[_26"
+    port: 9595
+    server: 116.203.201.23
     type: vless
-    network: ws
-    tls: true
+    network: tcp
     udp: true
-    servername: hajlab.ucdavis.edu
     skip-cert-verify: true
-    ws-opts:
-      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
-      headers:
-        host: joinshhproxybedeeeee.ir
-    uuid: b005ca35-199f-42fe-855c-75b86b0c2fc6
-  - name: "[_30"
+    uuid: f6f183ff-6bdf-4596-88d3-165feab4417f
+  - name: "[_27"
     port: 443
     server: hajlab.ucdavis.edu
     type: vless
@@ -1477,37 +1258,129 @@ proxies:
         @Maznet--@MAZNET?ed=2560"
       headers:
         host: loye.ir
-    uuid: 6c82ab75-5052-4d39-86ec-81ba39d0160f
-  - name: TLS4-ALL|@ArV2ray_2
+    uuid: a8ca4f32-c05c-4d99-a307-fc8dd262752a
+  - name: "[_28"
     port: 443
-    server: live.skornorth.com
+    server: 151.101.194.228
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: live.skornorth.com
+    servername: hajlab.ucdavis.edu
     skip-cert-verify: true
     ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
       headers:
-        host: 1.Hjgvdxx2.net
-    alpn:
-      - h2,http/1.1
-    uuid: telegram-id-ArV2ray
+        host: wWw.SpEeDtEsT.NeT.ZuLa.aIr.IkCoSaLeS.iR.D662599.v17.TzZLiMitTNeWz.NeT
+    uuid: ab51af2e-2819-480e-afaf-b682c82dc63f
     client-fingerprint: chrome
-  - name: WS2-All+|+@ArV2ray_2
+  - name: "@proxy_kafee+|+ALL++(ژاکلین)_2"
+    port: 8080
+    server: visa.com
+    type: vless
+    network: httpupgrade
+    udp: true
+    skip-cert-verify: true
+    uuid: 25ef4fdd-9a2c-4d8d-bf99-90df32ab8302
+  - name: "[_29"
     port: 80
-    server: ArV2ry.fastly80-2.hosting-ip.com
+    server: 151.101.2.165
+    type: vless
+    network: ws
+    udp: true
+    uuid: de5eedc7-4292-4b5d-f7ac-851e7236e2c9
+  - name: "@meli_proxyy_44"
+    port: 1620
+    server: osi.dornagamesco.ir
+    type: vless
+    network: tcp
+    udp: true
+    servername: refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 2d5d4230-10e2-4ee9-afe5-a55c20d2cb3b
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: "@meli_proxyy_45"
+    port: 1621
+    server: san.dornagamesco.ir
+    type: vless
+    network: tcp
+    udp: true
+    servername: wwww.refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 2d5d4230-10e2-4ee9-afe5-a55c20d2cb3b
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: "[_30"
+    port: 80
+    server: speedtest.net
     type: vless
     network: ws
     udp: true
     skip-cert-verify: true
     ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80
+      path: /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048
       headers:
-        host: fer49sowk.net
-    uuid: telegram-id-ArV2ray
-  - name: "[🏁]t.me/ConfigsHub_2"
+        host: XpnTeam.ir
+    uuid: de5eedc7-4292-4b5d-f7ac-851e7236e2c9
+  - name: "[_31"
+    port: 80
+    server: 151.101.2.165
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam/@XpnTeam?ed=2048
+      headers:
+        host: XpnTeam.ir
+    uuid: de5eedc7-4292-4b5d-f7ac-851e7236e2c9
+  - name: "[_32"
+    port: 80
+    server: visa.org
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /xmlrpc.php?ed=1080
+      headers:
+        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.
+    uuid: 071adfc4-b337-4a90-bdcc-e66a4d327c55
+  - name: "@meli_proxyy_46"
+    port: 1623
+    server: san.dornagamesco.ir
+    type: vless
+    network: tcp
+    udp: true
+    servername: refersion.com
+    skip-cert-verify: true
+    reality-opts:
+      public-key: uGYj7gkQdNaabDVQZdbHeSVizGPrzj8YD5jdYm7stG0
+      short-id: 3a622700e73c6642
+    uuid: 2d5d4230-10e2-4ee9-afe5-a55c20d2cb3b
+    flow: xtls-rprx-vision
+    client-fingerprint: chrome
+  - name: "[_33"
+    port: 443
+    server: hajlab.ucdavis.edu
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: hajlab.ucdavis.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy?ed=2048
+      headers:
+        host: joinshhproxybedeeeeeee.ir
+    uuid: 79f08961-9984-49f4-b560-3e6f8530a09e
+  - name: "@meli_proxyyسرورای‌بیشتر_4"
     port: 8080
     server: www.speedtest.net
     type: vmess
@@ -1518,84 +1391,11 @@ proxies:
     servername: ""
     skip-cert-verify: true
     cipher: auto
-    uuid: TELEGRAM-WHAL-FREE1
+    uuid: TELEGRAM-WHAL-FREE3
     alterId: 0
-  - name: "[🏁]t.me/ConfigsHub_3"
-    port: 18000
-    server: 79.127.229.54
-    type: vmess
-    network: tcp
-    tls: false
-    udp: true
-    version: "2"
-    servername: ""
-    skip-cert-verify: true
-    cipher: auto
-    uuid: fa1897db-1925-4c86-a495-939a959af900
-    alterId: 0
-  - name: "[_31"
-    port: 443
-    server: 162.159.153.7
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vbbb.ylks2024.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /youlingkaishi
-      headers:
-        host: vbbb.ylks2024.us.kg
-    uuid: 71ed6628-5870-4d19-8a52-f2a3ba3d4898
-  - name: "@meli_proxyy_40"
+  - name: "@mehrosaboran_4"
     port: 80
-    server: A13.fastly80-3.hosting-ip.com
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
-      headers:
-        host: 6.fidsxss6x.ir
-    uuid: 42cf8835-b15e-46f1-b93f-60ec92bf0a61
-  - name: TLS3-ALL|@ArV2ray_2
-    port: 443
-    server: live.skornorth.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: live.skornorth.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-      headers:
-        host: mtn26kws.net
-    alpn:
-      - h2,http/1.1
-    uuid: telegram-id-ArV2ray
-    client-fingerprint: chrome
-  - name: TLS2-ALL|@ArV2ray_2
-    port: 443
-    server: live.skornorth.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: live.skornorth.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-      headers:
-        host: fem5sowk.net
-    alpn:
-      - h2,http/1.1
-    uuid: telegram-id-ArV2ray
-    client-fingerprint: chrome
-  - name: "[_32"
-    port: 80
-    server: join.vpncustomize.com
+    server: www.speedtest.net
     type: vless
     network: ws
     udp: true
@@ -1604,37 +1404,113 @@ proxies:
       path: /xmlrpc.php?ed=1080
       headers:
         host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.
-    uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
-  - name: "[_33"
+    uuid: 071adfc4-b337-4a90-bdcc-e66a4d327c55
+  - name: "[_34"
     port: 443
-    server: live.wkrq.com
+    server: pscresearch.faculty.ucdavis.edu
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: live.wkrq.com
+    servername: pscresearch.faculty.ucdavis.edu
     skip-cert-verify: true
     ws-opts:
-      path: /?ed=2048
+      path: ws/?ed=2048
       headers:
-        host: epicnodegermany.com
-    alpn:
-      - h2,http/1.1
-    uuid: e19814de-d38b-4436-9bdb-1fbb23e2876b
-    client-fingerprint: chrome
-  - name: WS-All+|+@ArV2ray_2
+        host: jbiudvh7t5y7tythgg.com
+    uuid: 67c3113d-c896-42ec-ae6b-bc3309b5970c
+  - name: "@meli_proxyy_47"
     port: 80
-    server: Ay.fastly80-2.hosting-ip.com
+    server: s14.fastly80-3.hosting-ip.com
     type: vless
     network: ws
     udp: true
     skip-cert-verify: true
     ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80
+      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
       headers:
-        host: deinssw26.net
-    uuid: telegram-id-ArV2ray
-  - name: "@meli_proxyy_41"
+        host: Kheili2asabiam.net
+    uuid: TELEGRAM-id-NUFiLTER
+  - name: "[_35"
+    port: 443
+    server: pscresearch.faculty.ucdavis.edu
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: pscresearch.faculty.ucdavis.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: ws/?ed=2048
+      headers:
+        host: jbiudvh7t5y7tythgg.com
+    uuid: 67c3113d-c896-42ec-ae6b-bc3309b5970c
+  - name: "@meli_proxyy_48"
+    port: 80
+    server: s14.fastly80-3.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER,telegram-NUFiLTER?ed=80
+      headers:
+        host: Kheili2asabiam.net
+    uuid: TELEGRAM-id-NUFiLTER
+  - name: "@meli_proxyy_49"
+    port: 80
+    server: 151.101.128.204
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /melo/ws?ed=2048
+      headers:
+        host: www.meloammn.ir
+    uuid: c7953896-7bb2-4ce2-c7ca-117b2678b47f
+  - name: "@meli_proxyy_50"
+    port: 80
+    server: 151.101.66.219
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /melo/ws?ed=2048
+      headers:
+        host: login.meloammn.com
+    uuid: f899a324-afac-41cc-cde8-31cbedc300fb
+  - name: "[🏁]t.me/ConfigsHub_1"
+    port: 2087
+    server: www.parsvds.com
+    type: vmess
+    network: ws
+    tls: true
+    udp: true
+    version: "2"
+    servername: OfFeR.MirAclestORy.tOP
+    skip-cert-verify: true
+    ws-opts:
+      path: /
+      headers:
+        host: OfFeR.MirAclestORy.tOP.
+    cipher: auto
+    uuid: b6133396-7b3e-4b42-9ad9-228b5e33f045
+    alterId: 0
+  - name: "@meli_proxyy_51"
+    port: 8880
+    server: www.speedtest.net
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /melo/
+      headers:
+        host: ch.我的名字伊斯梅洛.site.
+    uuid: a3cde07f-f1ba-44b9-9dec-9830800d66a6
+  - name: "@meli_proxyy_52"
     port: 443
     server: zmaoz.faculty.ucdavis.edu
     type: vless
@@ -1649,23 +1525,79 @@ proxies:
         host: www.meloammn.ir
     alpn:
       - h2,http/1.1
-    uuid: aa6f3d6e-f835-46ab-e35e-71828493ec4f
+    uuid: c7953896-7bb2-4ce2-c7ca-117b2678b47f
     client-fingerprint: chrome
-  - name: "[_34"
-    port: 8880
-    server: www.speedtest.net
+  - name: "@meli_proxyy_53"
+    port: 80
+    server: Zula.ir
     type: vless
     network: ws
     udp: true
     skip-cert-verify: true
     ws-opts:
-      path: /melo/
+      path: /?ed=2053
       headers:
-        host: ch.我的名字伊斯梅洛.site.
-    uuid: 460cbc68-b655-4fb3-df58-9e64a82e325f
-  - name: "@meli_proxyy_42"
+        host: bo2bo2.bia2bax.shoP.
+    uuid: v2rayng____76
+  - name: "[_36"
+    port: 443
+    server: live.skornorth.com
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: live.skornorth.com
+    skip-cert-verify: true
+    ws-opts:
+      path: /@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
+      headers:
+        host: cinematicket.org
+    uuid: tell--ZEDMODEON
+  - name: "[_37"
+    port: 443
+    server: connectcarolina.sites.unc.edu
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: connectcarolina.sites.unc.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
+      headers:
+        host: ghatreh.com
+    uuid: tell--ZEDMODEON
+  - name: "[_38"
+    port: 443
+    server: connectcarolina.sites.unc.edu
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: connectcarolina.sites.unc.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
+      headers:
+        host: ino.school
+    uuid: Join--ZEDMODEON
+  - name: "[_39"
+    port: 443
+    server: connectcarolina.sites.unc.edu
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: connectcarolina.sites.unc.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
+      headers:
+        host: tourdanesh.ir
+    uuid: Join--ZEDMODEON
+  - name: "@mehrosaboran_5"
     port: 80
-    server: join.VPNCUSTOMIZE.com
+    server: 162.159.153.2
     type: vless
     network: ws
     udp: true
@@ -1674,61 +1606,272 @@ proxies:
       path: /xmlrpc.php/Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE,Telegram,VPNCUSTOMIZE?ed=1080
       headers:
         host: csgo.mozilla.5.0.xn--2b5baaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.ajab.iP-ddns.com
-    uuid: 19d13bed-b8c5-4443-920e-12f833fed576
-  - name: defaultName_5
+    uuid: 79475be6-f4e9-4700-a3dc-fa42e540a950
+  - name: "@meli_proxyy_54"
     port: 80
-    server: 151.101.194.133
+    server: 151.101.3.8
     type: vless
     network: ws
     udp: true
     skip-cert-verify: true
     ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443
       headers:
-        host: 1-2941.ir
-    uuid: telegram-id-ArV2ray
-  - name: "@meli_proxyy_43"
+        host: Tehranc2.Org
+    uuid: 39d5ea22-1c73-4b12-8b5b-2be82c78add8
+  - name: "[_40"
     port: 80
-    server: 151.101.128.204
+    server: 151.101.3.8
+    type: vless
+    network: ws
+    udp: true
+    uuid: e9978c18-0465-47e8-9c20-63d5549c8a60
+  - name: "[_41"
+    port: 1935
+    server: 35.179.220.39
+    type: trojan
+    network: tcp
+    udp: true
+    sni: x1uk-amazon.devefun.net
+    password: O7Iz39gyjV
+    skip-cert-verify: false
+    alpn:
+      - h3,h2,http/1.1
+  - name: "[_42"
+    port: 80
+    server: fastlyipcloudflaretamiz.fast.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    uuid: V2RAXX--
+  - name: "[_43"
+    port: 80
+    server: prOD.fAstlY.nEt
+    type: vless
+    network: ws
+    udp: true
+    uuid: 4d6ffdeb-abc5-5658-a1f3-979681b710f2
+  - name: "[_44"
+    port: 80
+    server: vmessorg.fastly80-3.hosting-ip.com
     type: vless
     network: ws
     udp: true
     skip-cert-verify: true
     ws-opts:
-      path: /melo/ws?ed=2048
+      path: "@vmessorg----@vmessorg-----@vmessorg----@vmessorg----@vmessorg----@vmess\
+        org----@vmessorg----@vmessorg----@vmessorg----@vmessorg----@vmessorg---\
+        -@vmessorg?ed=2480"
       headers:
-        host: www.meloammn.ir
-    uuid: aa6f3d6e-f835-46ab-e35e-71828493ec4f
-  - name: "@meli_proxyy_44"
+        host: TEL.VMESSORG.http.www.speedtest.net.fast.com.vmessorgg.ir
+    uuid: a409464b-a13a-4070-96fa-07d916d6bb2e
+  - name: "[_45"
+    port: 12825
+    server: ramino.novintecc.org
+    type: vless
+    network: tcp
+    tls: true
+    udp: true
+    servername: ramino.novintecc.org
+    skip-cert-verify: true
+    alpn:
+      - h3,h2,http/1.1
+    uuid: 8cc3059c-7551-4ed6-807b-a1b66d139c09
+  - name: "@meli_proxyy_55"
+    port: 8080
+    server: www.speedtest.net
+    type: vless
+    network: httpupgrade
+    udp: true
+    skip-cert-verify: true
+    uuid: SVNTEAM
+  - name: "[_46"
     port: 80
-    server: 146.75.0.88
+    server: 151.101.194.165
+    type: vless
+    network: ws
+    udp: true
+    uuid: a409464b-a13a-4070-96fa-07d916d6bb2e
+  - name: "[_47"
+    port: 80
+    server: 151.101.2.219
     type: vless
     network: ws
     udp: true
     skip-cert-verify: true
     ws-opts:
-      path: /melo/ws?ed=2048
+      path: /Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN--Join--HAJIMAMADVPN?ed=2048
       headers:
-        host: login.meloammn.com
-    uuid: fb0f7523-be20-4a7c-ad71-9eccd93f960d
-  - name: defaultName_6
+        host: snapp.com
+    uuid: 21116e83-f40b-4f97-a1f1-7bb1c5ea4609
+  - name: "[_48"
+    port: 80
+    server: vmessorg.fastly80-3.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    uuid: a409464b-a13a-4070-96fa-07d916d6bb2e
+  - name: "[_49"
     port: 443
-    server: 151.101.194.133
+    server: 104.17.147.22
     type: vless
     network: ws
     tls: true
     udp: true
-    servername: mio.splashthat.com
+    servername: 12863995741163367406554084809141.v2line.net
     skip-cert-verify: true
     ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
+      path: /v2line-paris-france-vl-ws-tls-advanced
       headers:
-        host: cdiuw64.net
+        host: 12863995741163367406554084809141.v2line.net
+    uuid: 357027be-f167-41c3-a878-aa64f6284761
+  - name: "[_50"
+    port: 443
+    server: hajlab.ucdavis.edu
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: hajlab.ucdavis.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
+      headers:
+        host: Joinxvproxybedee.ir
     alpn:
       - h2,http/1.1
-    uuid: telegram-id-ArV2ray
-    client-fingerprint: chrome
-  - name: "[_35"
+    uuid: 17844e21-8ddc-4474-8c1f-88dcfa96239a
+    client-fingerprint: android
+  - name: "@meli_proxyy_56"
+    port: 80
+    server: 151.101.3.8
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443
+      headers:
+        host: Tehranc1.Org
+    uuid: 6fb4e5ea-37ef-4b49-8317-284958519dc9
+  - name: defaultName_2
+    port: 80
+    server: 151.101.3.8
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray-Telegram-ipV2Ray?ed=443
+      headers:
+        host: Tehranc3.Org
+    uuid: e9978c18-0465-47e8-9c20-63d5549c8a60
+  - name: "[_51"
+    port: 80
+    server: prOD.fAstlY.nEt
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      headers:
+        host: JOiN--E-L-i-V-2-R-A-Y.net
+    uuid: d66bb0ee-5f9e-5269-adb8-492d19241ed6
+  - name: "[🏁]t.me/ConfigsHub_2"
+    port: 443
+    server: 104.21.48.70
+    type: vmess
+    network: grpc
+    tls: true
+    udp: true
+    version: "2"
+    servername: hdfy4s2c1.cpionline.co
+    skip-cert-verify: true
+    cipher: auto
+    uuid: dfbbc8de-8a4f-407d-8069-6de38d83c4e1
+    alterId: 0
+  - name: "[_52"
+    port: 443
+    server: 104.17.148.22
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: 86278058785885367257976103254902.v2line.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /v2line-chicago-unitedstates-vl-ws-tls-advanced
+      headers:
+        host: 86278058785885367257976103254902.v2line.net
+    uuid: b9509f1d-fed1-49bd-acd4-038ad13c81e7
+  - name: "[_53"
+    port: 443
+    server: de04.abvpn.ru
+    type: vless
+    tls: true
+    udp: true
+    uuid: b6cdcef0-b61b-424d-81f8-41e40e762dde
+  - name: "[_54"
+    port: 8080
+    server: hello.username.fun
+    type: vless
+    network: httpupgrade
+    udp: true
+    skip-cert-verify: true
+    uuid: 56049972-b2f0-4ba5-ab21-f01bb68cfd6a
+  - name: "[_55"
+    port: 80
+    server: 151.101.192.155
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram,V2RAXX,Telegram,V2RAXX?ed=443
+      headers:
+        host: V2RAXX.IR
+    uuid: V2RAXX--
+  - name: "[_56"
+    port: 443
+    server: hajlab.ucdavis.edu
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: hajlab.ucdavis.edu
+    skip-cert-verify: true
+    ws-opts:
+      path: /@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy----@XvProxy?ed=2048
+      headers:
+        host: Joinxvproxybedee.ir
+    uuid: 17844e21-8ddc-4474-8c1f-88dcfa96239a
+  - name: "[_57"
+    port: 80
+    server: fastlyipcloudflaretamiz.fast.hosting-ip.com
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /Telegram,V2RAXX,Telegram,V2RAXX?ed=443
+      headers:
+        host: V2RAXX.IR
+    uuid: V2RAXX--
+  - name: "[_58"
+    port: 443
+    server: 104.17.148.22
+    type: vless
+    network: ws
+    tls: true
+    udp: true
+    servername: 12863995741163367406554084809141.v2line.net
+    skip-cert-verify: true
+    ws-opts:
+      path: /v2line-paris-france-vl-ws-tls-advanced
+      headers:
+        host: 12863995741163367406554084809141.v2line.net
+    uuid: 357027be-f167-41c3-a878-aa64f6284761
+  - name: "[_59"
     port: 443
     server: 104.17.147.22
     type: vless
@@ -1742,68 +1885,7 @@ proxies:
       headers:
         host: 46771119909676129223555549792065.v2line.net
     uuid: 3a15a346-2f6f-41bc-ad0c-a885aec3002a
-  - name: "[_36"
-    port: 443
-    server: 190.93.246.160
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: vbbb.lii2010.us.kg
-    skip-cert-verify: true
-    ws-opts:
-      path: /?ed=2560
-      headers:
-        host: vbbb.lii2010.us.kg
-    uuid: eebcdbce-4a2a-437e-9b30-f9d24793ebb1
-  - name: 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_3
-    port: 80
-    server: join.VPNCUSTOMIZE.com
-    type: vless
-    udp: true
-    uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
-  - name: "[_37"
-    port: 80
-    server: 104.26.13.101
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /xmlrpc.php?ed=1080
-      headers:
-        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.
-    uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
-  - name: TLS-ALL|@ArV2ray_2
-    port: 443
-    server: live.skornorth.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: live.skornorth.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-      headers:
-        host: cdiuw64.net
-    alpn:
-      - h2,http/1.1
-    uuid: telegram-id-ArV2ray
-    client-fingerprint: chrome
-  - name: "[_38"
-    port: 80
-    server: 162.159.153.2
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /xmlrpc.php?ed=1080
-      headers:
-        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.
-    uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
-  - name: "[_39"
+  - name: "[_60"
     port: 443
     server: pscresearch.faculty.ucdavis.edu
     type: vless
@@ -1817,19 +1899,7 @@ proxies:
       headers:
         host: jihvbtctvy9778.com
     uuid: ef78d69f-1bbf-4f5a-a669-df9670ed636a
-  - name: WS6-All+|+@ArV2ray_2
-    port: 80
-    server: s14.fastly80-2.hosting-ip.com
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80
-      headers:
-        host: 1-2941.ir
-    uuid: telegram-id-ArV2ray
-  - name: "@meli_proxyy_45"
+  - name: "@meli_proxyy_57"
     port: 443
     server: de04.abvpn.ru
     type: vless
@@ -1842,63 +1912,36 @@ proxies:
       path: /websocket
     uuid: b6cdcef0-b61b-424d-81f8-41e40e762dde
     client-fingerprint: chrome
-  - name: "[_40"
+  - name: "@meli_proxyy_58"
     port: 443
-    server: www.speedtest.net
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: 46771119909676129223555549792065.v2line.net
-    skip-cert-verify: true
-    ws-opts:
-      path: /v2line-helsinki-finland-vl-ws-tls-advanced
-      headers:
-        host: 46771119909676129223555549792065.v2line.net
-    uuid: 3a15a346-2f6f-41bc-ad0c-a885aec3002a
-  - name: TLS6-ALL|@ArV2ray_2
-    port: 443
-    server: live.skornorth.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: live.skornorth.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048
-      headers:
-        host: 1.2.wuffhq8.ir
-    alpn:
-      - h2,http/1.1
-    uuid: telegram-id-ArV2ray
-    client-fingerprint: chrome
-  - name: "[🏁]t.me/ConfigsHub_4"
-    port: 40804
-    server: 188.121.122.89
+    server: 193.160.130.245
     type: vmess
-    network: tcp
-    tls: false
+    network: ws
+    tls: true
     udp: true
     version: "2"
-    servername: ""
+    servername: beyonddsz.cfd
     skip-cert-verify: true
+    ws-opts:
+      path: /linkws
+      headers:
+        host: beyonddsz.cfd
     cipher: auto
-    uuid: 6e61b771-f2c2-40e1-9725-6cad0065a264
+    uuid: 9b456c2a-f2c1-45e1-87a9-b7628b04bb24
     alterId: 0
-  - name: WS4-All+|+@ArV2ray_2
-    port: 80
-    server: A13.fastly80-2.hosting-ip.com
+  - name: "@meli_proxyy_59"
+    port: 7777
+    server: 5.181.23.116
     type: vless
     network: ws
     udp: true
     skip-cert-verify: true
     ws-opts:
-      path: /telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry,telegram-ArV2ry?ed=80
+      path: /
       headers:
-        host: 6.fidss6x.ir
-    uuid: telegram-id-ArV2ray
-  - name: "[_41"
+        host: vkvd127.mycdn.me
+    uuid: world
+  - name: "[_61"
     port: 443
     server: www.speedtest.net
     type: vless
@@ -1912,27 +1955,21 @@ proxies:
       headers:
         host: 86278058785885367257976103254902.v2line.net
     uuid: b9509f1d-fed1-49bd-acd4-038ad13c81e7
-  - name: "[_42"
-    port: 9595
-    server: 116.203.201.23
-    type: vless
-    network: tcp
-    udp: true
-    skip-cert-verify: true
-    uuid: a54fcf91-c5a8-4c8e-a80f-050816f5ad3a
-  - name: "[_43"
-    port: 80
-    server: join.VPNCUSTOMIZE.com
+  - name: "[_62"
+    port: 443
+    server: www.speedtest.net
     type: vless
     network: ws
+    tls: true
     udp: true
+    servername: 31451350071858616668266749896909.v2line.net
     skip-cert-verify: true
     ws-opts:
-      path: /xmlrpc.php?ed=1080
+      path: /v2line-frankfurt-germany-vl-ws-tls-advanced
       headers:
-        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.
-    uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
-  - name: "@mehrosaboran_10"
+        host: 31451350071858616668266749896909.v2line.net
+    uuid: f848942f-30f1-446e-a546-7c500facce27
+  - name: "@mehrosaboran_6"
     port: 443
     server: live.skornorth.com
     type: vless
@@ -1946,47 +1983,7 @@ proxies:
       headers:
         host: cinematicket.org
     uuid: tel--ZEDMODEON
-  - name: "@mehrosaboran_11"
-    port: 80
-    server: visa.org
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      path: /xmlrpc.php?ed=1080
-      headers:
-        host: csgo.mozilla.5.0.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.127.0.0.1.offlinespeedtest.netdown.user.xn--2b5baaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa.0.2.1.xn--j9h1028mqmaoytii00aha21hfjrd.xn--m39h.tor.rubika.cloudns.ch.
-    uuid: dfc1a9ab-6241-4b73-92f7-b299fc6b7751
-  - name: "@mehrosaboran_12"
-    port: 443
-    server: zmaoz.faculty.ucdavis.edu
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: zmaoz.faculty.ucdavis.edu
-    skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON?ed=2048
-      headers:
-        host: snappshop.ir
-    uuid: Joinn--ZEDMODEON
-  - name: "@mehrosaboran_13"
-    port: 443
-    server: zmaoz.faculty.ucdavis.edu
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: zmaoz.faculty.ucdavis.edu
-    skip-cert-verify: true
-    ws-opts:
-      path: /@ZEDMODEON-ZEDMODEON-ZEDMODEON@ZEDMODEON-ZEDMODEON-TEL-ZEDMODEON-ZEDMODEON-ZEDMODEON-@ZEDMODEON?ed=2048
-      headers:
-        host: okala.com
-    uuid: Joinn--ZEDMODEON
-  - name: "[_44"
+  - name: "[_63"
     port: 443
     server: www.speedtest.net
     type: vless
@@ -2000,7 +1997,7 @@ proxies:
       headers:
         host: 12863995741163367406554084809141.v2line.net
     uuid: 357027be-f167-41c3-a878-aa64f6284761
-  - name: "[_45"
+  - name: "[_64"
     port: 443
     server: www.speedtest.net
     type: vless
@@ -2014,14 +2011,7 @@ proxies:
       headers:
         host: 16833408090632354836285938102432.v2line.net
     uuid: e3d88bae-d1ef-420a-b23a-e53a4d819dcc
-  - name: "[_46"
-    port: 443
-    server: arxfw2b78fi2q9hzylhn.freesocks.work
-    type: ss
-    udp: true
-    password: Nk9asglDzHzjktVzTkvhaA
-    cipher: chacha20-ietf-poly1305
-  - name: "[_47"
+  - name: "[_65"
     port: 443
     server: www.speedtest.net
     type: vless
@@ -2035,31 +2025,7 @@ proxies:
       headers:
         host: 40172455355379893279666481965425.v2line.net
     uuid: f7993502-37fe-4a14-8836-66ded7b88bfd
-  - name: "@meli_proxyy_46"
-    port: 13943
-    server: 212.98.224.245
-    type: vless
-    network: tcp
-    udp: true
-    skip-cert-verify: true
-    uuid: f684b3ec-afcc-4bad-96f6-fefa05a9017f
-  - name: "@meli_proxyy_47"
-    port: 8443
-    server: 212.98.224.229
-    type: vless
-    network: tcp
-    udp: true
-    skip-cert-verify: true
-    uuid: ddcdd97d-7854-498d-8a37-f8bc03e7b72c
-  - name: "@meli_proxyy_48"
-    port: 52277
-    server: 212.98.224.22
-    type: vless
-    network: tcp
-    udp: true
-    skip-cert-verify: true
-    uuid: 12c8140b-7482-4c43-9fa0-e95e42bb87fd
-  - name: "[_48"
+  - name: "[_66"
     port: 443
     server: 147.135.1.195
     type: vless
@@ -2069,21 +2035,7 @@ proxies:
     servername: 147135001195.sec22org.com
     skip-cert-verify: true
     uuid: ea286109-d20f-415e-849e-4af20ab04b65
-  - name: "[_49"
-    port: 2083
-    server: 104.19.130.18
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: v2.YUNChUN.TOP
-    skip-cert-verify: true
-    ws-opts:
-      path: /xd5eflyy4t5am65x/ynbilnlvdxnlzi5pc2vnyxjvlmnvbq==?ed=2560
-      headers:
-        host: v2.YUNChUN.TOP
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  - name: "[_50"
+  - name: "[_67"
     port: 2052
     server: 104.17.148.22
     type: vless
@@ -2091,26 +2043,7 @@ proxies:
     udp: true
     skip-cert-verify: true
     uuid: 722297ba-ec9f-4c10-909c-28e82e5c8403
-  - name: "[_51"
-    port: 80
-    server: speedtest.net
-    type: vless
-    network: ws
-    udp: true
-    skip-cert-verify: true
-    ws-opts:
-      headers:
-        host: PABLOO-MOSTAFA.COM
-    uuid: 1dc37235-84ae-5772-b0e1-d02d2c039268
-  - name: meli_proxyy
-    port: 58554
-    server: 2a01:4f8:c013:685b::1
-    type: vless
-    network: tcp
-    udp: true
-    skip-cert-verify: true
-    uuid: TELEGRAM-ServerNett
-  - name: "[_52"
+  - name: "[_68"
     port: 443
     server: 188.245.69.146
     type: vless
@@ -2125,131 +2058,47 @@ proxies:
       short-id: 5803fa4b
     uuid: 856e3bf8-d896-4fed-b655-210c37bc8f3f
     client-fingerprint: firefox
-  - name: "[_53"
+  - name: (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_1
     port: 443
-    server: live.989bull.com
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: live.989bull.com
-    skip-cert-verify: true
-    ws-opts:
-      path: /@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam----@SavTeam?ed=443
-      headers:
-        host: Savteam.CI
-    alpn:
-      - http/1.1
-    uuid: SAVTEAM7
-    client-fingerprint: chrome
-  - name: "[_54"
-    port: 80
-    server: 199.232.8.123
-    type: vless
+    server: get.fragmentary.info
+    type: trojan
     network: ws
     udp: true
-    skip-cert-verify: true
+    sni: get.fragmentary.info
+    password: PU3f7528NtNXnQqb9X263rGSD
+    skip-cert-verify: false
     ws-opts:
-      path: /RsAMasAPMX5yb1YZ?ed=2560
+      path: /socks5tobefree
       headers:
-        host: IRANINGOAT2.IR
-    uuid: d578322a-266b-479d-9eda-f1b41324e721
-  - name: "[_55"
-    port: 2087
-    server: 104.19.130.18
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: V2.YUnCHUn.tOp
-    skip-cert-verify: true
-    ws-opts:
-      path: /dzc7zir9eo038lmk/ynbilnlvdxnlzi5pc2vnyxjvlmnvbq==?ed=2560
-      headers:
-        host: V2.YUnCHUn.tOp
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  - name: "[_56"
-    port: 2053
-    server: www.speedtest.net
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: v2.yunCHuN.TOp
-    skip-cert-verify: true
-    ws-opts:
-      path: /f3OeUSHTqQgbsQNk/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==?ed=2560
-      headers:
-        host: v2.yunchun.top
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  - name: "[_57"
-    port: 8443
-    server: 104.19.130.18
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: V2.YUNcHUN.tOp
-    skip-cert-verify: true
-    ws-opts:
-      path: /hKmxcETc75oYOT0c/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==?ed=2560
-      headers:
-        host: v2.yunchun.top
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  - name: "[_58"
+        host: get.fragmentary.info
+    client-fingerprint: random
+  - name: "[_69"
     port: 443
-    server: 104.19.130.18
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: V2.yunCHUN.tOp
-    skip-cert-verify: true
-    ws-opts:
-      path: /kIC5WQ27QjR7HVJC/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==?ed=2560
-      headers:
-        host: v2.yunchun.top
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  - name: "[_59"
-    port: 2053
-    server: 104.19.130.18
-    type: vless
-    network: ws
-    tls: true
-    udp: true
-    servername: V2.yUNCHuN.TOp
-    skip-cert-verify: true
-    ws-opts:
-      path: /EIoLkN7aqclDu6kP/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==?ed=2560
-      headers:
-        host: v2.yunchun.top
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  - name: "[_60"
-    port: 80
-    server: 151.101.194.219
-    type: vless
+    server: 108.162.195.203
+    type: trojan
     network: ws
     udp: true
-    skip-cert-verify: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
     ws-opts:
+      path: /?ed=2560
       headers:
-        host: PABLOO-MOSTAFA.COM
-    uuid: 1dc37235-84ae-5772-b0e1-d02d2c039268
-  - name: "[_61"
-    port: 2053
-    server: 104.17.148.22
-    type: vless
+        host: td.promote.icu
+  - name: "[_70"
+    port: 443
+    server: 104.25.103.196
+    type: trojan
     network: ws
-    tls: true
     udp: true
-    servername: v2.yunCHuN.TOp
-    skip-cert-verify: true
+    sni: td.promote.icu
+    password: blue2024
+    skip-cert-verify: false
     ws-opts:
-      path: /f3OeUSHTqQgbsQNk/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbQ==?ed=2560
+      path: /?ed=2560
       headers:
-        host: v2.yunchun.top
-    uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  - name: (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪
+        host: td.promote.icu
+  - name: (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_2
     port: 443
     server: 107.172.57.21
     type: vless
@@ -2264,7 +2113,7 @@ proxies:
     uuid: e8cfc69c-f9a4-40ed-b48d-d5da257f5c7c
     flow: xtls-rprx-vision
     client-fingerprint: safari
-  - name: "[_62"
+  - name: "[_71"
     port: 2087
     server: f2.maryam1900.com
     type: vless
@@ -2278,7 +2127,7 @@ proxies:
       short-id: fc805835
     uuid: e4527384-4f20-4378-95dc-403996f12588
     client-fingerprint: firefox
-  - name: "@meli_proxyy_49"
+  - name: "@meli_proxyy_60"
     port: 443
     server: 147135001195.sec22org.com
     type: vless
@@ -2289,7 +2138,7 @@ proxies:
     alpn:
       - h2,http/1.1
     uuid: ea286109-d20f-415e-849e-4af20ab04b65
-  - name: "@meli_proxyy_50"
+  - name: "@meli_proxyy_61"
     port: 443
     server: 15.204.153.78
     type: vless
@@ -2299,7 +2148,7 @@ proxies:
     servername: 147135010103.sec19org.com
     skip-cert-verify: true
     uuid: 3b9bc773-05eb-4d5f-8c1f-57342c0c4f40
-  - name: "@meli_proxyy_51"
+  - name: "@meli_proxyy_62"
     port: 443
     server: 147.135.1.195
     type: vless
@@ -2311,7 +2160,7 @@ proxies:
     alpn:
       - h2,http/1.1
     uuid: ea286109-d20f-415e-849e-4af20ab04b65
-  - name: "@meli_proxyy_52"
+  - name: "@meli_proxyy_63"
     port: 443
     server: 147135004002.sec20org.com
     type: vless
@@ -2322,7 +2171,7 @@ proxies:
     alpn:
       - h2,http/1.1
     uuid: 54694a33-a8dc-47dd-bc38-acd3971e0055
-  - name: "[_63"
+  - name: "[_72"
     port: 443
     server: 135.148.177.196
     type: vless
@@ -2334,7 +2183,7 @@ proxies:
     alpn:
       - h2,http/1.1
     uuid: e20ebe01-1815-4c09-8e77-fb2f168263ce
-  - name: "@meli_proxyy_53"
+  - name: "@meli_proxyy_64"
     port: 443
     server: 51.81.36.78
     type: vless
@@ -2346,7 +2195,7 @@ proxies:
     alpn:
       - h2,http/1.1
     uuid: 0a44145f-59dc-4e5b-a233-677b97f5114c
-  - name: 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_4
+  - name: 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
     port: 23294
     server: 20.193.131.152
     type: vmess
@@ -2359,7 +2208,7 @@ proxies:
     cipher: auto
     uuid: e6f0541f-af71-4e16-9cd8-5a612934b7a6
     alterId: 0
-  - name: "[_64"
+  - name: "[_73"
     port: 443
     server: 5.188.6.73
     type: vless
@@ -2376,6 +2225,26 @@ proxies:
     udp: true
     password: cvII85TrW6n0OGyfpHVS1u
     cipher: chacha20-ietf-poly1305
+  - name: "@meli_proxyy_65"
+    port: 2053
+    server: Crunch.floorshoping22.com
+    type: trojan
+    network: grpc
+    udp: true
+    sni: Crunch.floorshoping22.com
+    password: FuUaWS3YWG
+    skip-cert-verify: false
+    alpn:
+      - h2
+    client-fingerprint: chrome
+  - name: "[_74"
+    port: 443
+    server: 65.20.115.19
+    type: trojan
+    udp: true
+    sni: myket.io
+    password: wkmY1R4EcP
+    skip-cert-verify: false
   - name: 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
     port: 30251
     server: hkt2.bika.hk
@@ -2389,14 +2258,7 @@ proxies:
     cipher: auto
     uuid: 9e88a10b-655c-5120-89d0-408634169561
     alterId: 0
-  - name: proxy_mtm
-    port: 55988
-    server: mx2.drawnrisha.one
-    type: ss
-    udp: true
-    password: 2R1pPsQKFKubZZQKKZcSKKdner7TPcyXwEnaG5jA67XiTZh8nBHEjSbuUBqadevcUJYV78JVsFFvVtrfPhgo1RV6ajJ7Vqo3
-    cipher: chacha20-ietf-poly1305
-  - name: "@Artemisvpn1_15"
+  - name: "@Artemisvpn1_14"
     port: 47555
     server: 46.29.166.237
     type: vmess
@@ -2409,7 +2271,19 @@ proxies:
     cipher: auto
     uuid: 0c49cd19-2758-4d38-e6a8-11f2d6635860
     alterId: 0
-  - name: "[_65"
+  - name: 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_2
+    port: 80
+    server: 162.19.228.119
+    type: vless
+    network: ws
+    udp: true
+    skip-cert-verify: true
+    ws-opts:
+      path: /http
+      headers:
+        host: google.com
+    uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51
+  - name: "[_75"
     port: 443
     server: 104.21.74.97
     type: vless
@@ -2442,7 +2316,7 @@ proxies:
     network: ws
     udp: true
     uuid: 531a0a29-8221-414f-8861-9b336ec9481e
-  - name: 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_2
+  - name: 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋
     port: 80
     server: 51.75.30.8
     type: vless
@@ -2451,13 +2325,6 @@ proxies:
     skip-cert-verify: true
     ws-opts:
       path: /http
-    uuid: 1949f066-bcb0-49be-88e9-74abd940f80e
-  - name: defaultName_7
-    port: 80
-    server: 51.75.30.8
-    type: vless
-    network: ws
-    udp: true
     uuid: 1949f066-bcb0-49be-88e9-74abd940f80e
   - name: 🆑40@oneclickvpnkeys
     port: 22324
@@ -2504,68 +2371,65 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - "@Parsashonam_1"
+      - "@Parsashonam_2"
+      - "@Parsashonam_3"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_1"
       - "[_1"
       - "[_2"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_1"
       - "[_3"
-      - "[_4"
+      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@mehrosaboran_1"
-      - "@mehrosaboran_2"
-      - "[_5"
       - "@meli_proxyy_1"
+      - "@meli_proxyy_2"
+      - "[_4"
+      - "[_5"
+      - "@mehrosaboran_2"
+      - "@meli_proxyy_3"
       - "[_6"
-      - TLS4-ALL|@ArV2ray_1
-      - WS2-All+|+@ArV2ray_1
-      - TLS3-ALL|@ArV2ray_1
-      - TLS2-ALL|@ArV2ray_1
+      - defaultName_1
       - "[_7"
       - "[_8"
-      - WS-All+|+@ArV2ray_1
-      - "@meli_proxyy_2"
-      - defaultName_1
-      - "@meli_proxyy_3"
-      - defaultName_2
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
       - "[_9"
-      - TLS-ALL|@ArV2ray_1
       - "[_10"
-      - "[_11"
-      - WS6-All+|+@ArV2ray_1
-      - TLS6-ALL|@ArV2ray_1
-      - WS4-All+|+@ArV2ray_1
-      - "[_12"
-      - "[_13"
       - "@mehrosaboran_3"
-      - "@mehrosaboran_4"
-      - "@mehrosaboran_5"
-      - "@mehrosaboran_6"
-      - "[_14"
+      - "[_11"
+      - "[_12"
       - "@meli_proxyy_4"
-      - "[_15"
-      - "[_16"
-      - "[_17"
-      - "[_18"
+      - "[_13"
+      - "[_14"
       - "@meli_proxyy_5"
       - "@meli_proxyy_6"
       - "@meli_proxyy_7"
-      - "[_19"
       - "@meli_proxyy_8"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_15"
       - "@meli_proxyy_9"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
+      - "@meli_proxyy_10"
+      - "[_16"
+      - 🟣🔥+کانال+سرور+اختصاصی+با+سرعت+بالا+تضمینی+@Outlinev_2rayNG
+      - "@meli_proxyy_11"
       - "@vmessprotocol"
       - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_1
-      - "@meli_proxyy_10"
-      - "@meli_proxyy_11"
       - "@meli_proxyy_12"
       - "@meli_proxyy_13"
       - "@meli_proxyy_14"
       - "@meli_proxyy_15"
       - "@meli_proxyy_16"
       - "@meli_proxyy_17"
+      - "@meli_proxyy_18"
+      - "@meli_proxyy_19"
+      - "@meli_proxyy_20"
+      - "@meli_proxyy_21"
+      - "@meli_proxyy_22"
+      - "@meli_proxyy_23"
+      - 🪙20@oneclickvpnkeys
       - "@Artemisvpn1_1"
       - "@Artemisvpn1_2"
       - "@Artemisvpn1_3"
       - 📀1@oneclickvpnkeys
-      - "@meli_proxyy_18"
+      - "@meli_proxyy_24"
       - 📀24@oneclickvpnkeys
       - 📀17@oneclickvpnkeys
       - 📀28@oneclickvpnkeys
@@ -2574,124 +2438,112 @@ proxy-groups:
       - "@Artemisvpn1_4"
       - "@Artemisvpn1_5"
       - "@Artemisvpn1_6"
-      - "@meli_proxyy_19"
-      - "@meli_proxyy_20"
-      - "@meli_proxyy_21"
-      - "@Freakconfig"
-      - "@meli_proxyy_22"
-      - "@meli_proxyy_23"
-      - "@meli_proxyy_24"
       - "@meli_proxyy_25"
       - "@meli_proxyy_26"
-      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi
-      - "@Artemisvpn1_7"
-      - 🔺45@oneclickvpnkeys
-      - 🆗1@oneclickvpnkeys
       - "@meli_proxyy_27"
       - "@meli_proxyy_28"
       - "@meli_proxyy_29"
-      - "[_20"
+      - "@Freakconfig"
       - "@meli_proxyy_30"
-      - "@Artemisvpn1_8"
-      - "[_21"
-      - 🆒13@oneclickvpnkeys
       - "@meli_proxyy_31"
       - "@meli_proxyy_32"
+      - "@meli_proxyy_33"
+      - "@meli_proxyy_34"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_1
+      - "@Artemisvpn1_7"
+      - 🔺45@oneclickvpnkeys
+      - 🆗1@oneclickvpnkeys
+      - "@meli_proxyy_35"
+      - "@meli_proxyy_36"
+      - "@meli_proxyy_37"
+      - "@meli_proxyy_38"
+      - "[_17"
+      - "[_18"
+      - "@meli_proxyy_39"
+      - "[_19"
+      - 🆒13@oneclickvpnkeys
+      - "@meli_proxyy_40"
+      - "@meli_proxyy_41"
+      - "[_20"
       - 🆙64@oneclickvpnkeys
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_1
       - 🆎57@oneclickvpnkeys
       - 🆎23@oneclickvpnkeys_1
       - ❗6@oneclickvpnkeys
+      - "@Artemisvpn1_8"
       - "@Artemisvpn1_9"
       - "@Artemisvpn1_10"
       - "@Artemisvpn1_11"
       - "@Artemisvpn1_12"
       - "@Artemisvpn1_13"
-      - "@Artemisvpn1_14"
       - ✴️41@oneclickvpnkeys
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_1
       - ♎41@oneclickvpnkeys
-      - defaultName_3
       - 📳5@oneclickvpnkeys
       - 🆓60@oneclickvpnkeys
       - 🅱️76@oneclickvpnkeys
-      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@meli_proxyyسرورای‌بیشتر_2"
+      - "@meli_proxyyسرورای‌بیشتر_3"
+      - 🌲24@oneclickvpnkeys
+      - (S104)
+      - "Our Channel : @DirectVPN_1"
+      - "[_21"
+      - "@meli_proxyy_42"
+      - "@meli_proxyy_43"
       - "[_22"
+      - "@Parsashonam_4"
+      - "@Parsashonam_5"
+      - "@Parsashonam_6"
+      - "Our Channel : @DirectVPN_2"
       - "[_23"
       - "[_24"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_2"
       - "[_25"
-      - "@meli_proxyy_33"
-      - "@meli_proxyy_34"
-      - "[🏁]t.me/ConfigsHub_1"
-      - "@meli_proxyy_35"
-      - "@mehrosaboran_7"
-      - "@mehrosaboran_8"
-      - "@mehrosaboran_9"
-      - defaultName_4
-      - "@meli_proxyy_36"
       - "[_26"
       - "[_27"
-      - "@meli_proxyy_37"
-      - "@meli_proxyy_38"
-      - "@meli_proxyy_39"
-      - "@Parsashonam_1"
-      - "@Parsashonam_2"
-      - TLS5-ALL|@ArV2ray
-      - WS3-All+|+@ArV2ray
       - "[_28"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_2"
       - "[_29"
-      - "[_30"
-      - TLS4-ALL|@ArV2ray_2
-      - WS2-All+|+@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_2"
-      - "[🏁]t.me/ConfigsHub_3"
-      - "[_31"
-      - "@meli_proxyy_40"
-      - TLS3-ALL|@ArV2ray_2
-      - TLS2-ALL|@ArV2ray_2
-      - "[_32"
-      - "[_33"
-      - WS-All+|+@ArV2ray_2
-      - "@meli_proxyy_41"
-      - "[_34"
-      - "@meli_proxyy_42"
-      - defaultName_5
-      - "@meli_proxyy_43"
       - "@meli_proxyy_44"
-      - defaultName_6
+      - "@meli_proxyy_45"
+      - "[_30"
+      - "[_31"
+      - "[_32"
+      - "@meli_proxyy_46"
+      - "[_33"
+      - "@meli_proxyyسرورای‌بیشتر_4"
+      - "@mehrosaboran_4"
+      - "[_34"
+      - "@meli_proxyy_47"
       - "[_35"
+      - "@meli_proxyy_48"
+      - "@meli_proxyy_49"
+      - "@meli_proxyy_50"
+      - "[🏁]t.me/ConfigsHub_1"
+      - "@meli_proxyy_51"
+      - "@meli_proxyy_52"
+      - "@meli_proxyy_53"
       - "[_36"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_3
       - "[_37"
-      - TLS-ALL|@ArV2ray_2
       - "[_38"
       - "[_39"
-      - WS6-All+|+@ArV2ray_2
-      - "@meli_proxyy_45"
+      - "@mehrosaboran_5"
+      - "@meli_proxyy_54"
       - "[_40"
-      - TLS6-ALL|@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_4"
-      - WS4-All+|+@ArV2ray_2
       - "[_41"
       - "[_42"
       - "[_43"
-      - "@mehrosaboran_10"
-      - "@mehrosaboran_11"
-      - "@mehrosaboran_12"
-      - "@mehrosaboran_13"
       - "[_44"
       - "[_45"
+      - "@meli_proxyy_55"
       - "[_46"
       - "[_47"
-      - "@meli_proxyy_46"
-      - "@meli_proxyy_47"
-      - "@meli_proxyy_48"
       - "[_48"
       - "[_49"
       - "[_50"
+      - "@meli_proxyy_56"
+      - defaultName_2
       - "[_51"
-      - meli_proxyy
+      - "[🏁]t.me/ConfigsHub_2"
       - "[_52"
       - "[_53"
       - "[_54"
@@ -2701,26 +2553,41 @@ proxy-groups:
       - "[_58"
       - "[_59"
       - "[_60"
+      - "@meli_proxyy_57"
+      - "@meli_proxyy_58"
+      - "@meli_proxyy_59"
       - "[_61"
-      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪
       - "[_62"
-      - "@meli_proxyy_49"
-      - "@meli_proxyy_50"
-      - "@meli_proxyy_51"
-      - "@meli_proxyy_52"
+      - "@mehrosaboran_6"
       - "[_63"
-      - "@meli_proxyy_53"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_4
       - "[_64"
-      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
-      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
-      - proxy_mtm
-      - "@Artemisvpn1_15"
       - "[_65"
+      - "[_66"
+      - "[_67"
+      - "[_68"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_1
+      - "[_69"
+      - "[_70"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_2
+      - "[_71"
+      - "@meli_proxyy_60"
+      - "@meli_proxyy_61"
+      - "@meli_proxyy_62"
+      - "@meli_proxyy_63"
+      - "[_72"
+      - "@meli_proxyy_64"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_73"
+      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
+      - "@meli_proxyy_65"
+      - "[_74"
+      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
+      - "@Artemisvpn1_14"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_2
+      - "[_75"
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_2
       - 🆎23@oneclickvpnkeys_2
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_2
-      - defaultName_7
+      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋
       - 🆑40@oneclickvpnkeys
       - رایگان | VMESS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣
       - رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣
@@ -2730,68 +2597,65 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - "@Parsashonam_1"
+      - "@Parsashonam_2"
+      - "@Parsashonam_3"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_1"
       - "[_1"
       - "[_2"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_1"
       - "[_3"
-      - "[_4"
+      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@mehrosaboran_1"
-      - "@mehrosaboran_2"
-      - "[_5"
       - "@meli_proxyy_1"
+      - "@meli_proxyy_2"
+      - "[_4"
+      - "[_5"
+      - "@mehrosaboran_2"
+      - "@meli_proxyy_3"
       - "[_6"
-      - TLS4-ALL|@ArV2ray_1
-      - WS2-All+|+@ArV2ray_1
-      - TLS3-ALL|@ArV2ray_1
-      - TLS2-ALL|@ArV2ray_1
+      - defaultName_1
       - "[_7"
       - "[_8"
-      - WS-All+|+@ArV2ray_1
-      - "@meli_proxyy_2"
-      - defaultName_1
-      - "@meli_proxyy_3"
-      - defaultName_2
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
       - "[_9"
-      - TLS-ALL|@ArV2ray_1
       - "[_10"
-      - "[_11"
-      - WS6-All+|+@ArV2ray_1
-      - TLS6-ALL|@ArV2ray_1
-      - WS4-All+|+@ArV2ray_1
-      - "[_12"
-      - "[_13"
       - "@mehrosaboran_3"
-      - "@mehrosaboran_4"
-      - "@mehrosaboran_5"
-      - "@mehrosaboran_6"
-      - "[_14"
+      - "[_11"
+      - "[_12"
       - "@meli_proxyy_4"
-      - "[_15"
-      - "[_16"
-      - "[_17"
-      - "[_18"
+      - "[_13"
+      - "[_14"
       - "@meli_proxyy_5"
       - "@meli_proxyy_6"
       - "@meli_proxyy_7"
-      - "[_19"
       - "@meli_proxyy_8"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_15"
       - "@meli_proxyy_9"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
+      - "@meli_proxyy_10"
+      - "[_16"
+      - 🟣🔥+کانال+سرور+اختصاصی+با+سرعت+بالا+تضمینی+@Outlinev_2rayNG
+      - "@meli_proxyy_11"
       - "@vmessprotocol"
       - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_1
-      - "@meli_proxyy_10"
-      - "@meli_proxyy_11"
       - "@meli_proxyy_12"
       - "@meli_proxyy_13"
       - "@meli_proxyy_14"
       - "@meli_proxyy_15"
       - "@meli_proxyy_16"
       - "@meli_proxyy_17"
+      - "@meli_proxyy_18"
+      - "@meli_proxyy_19"
+      - "@meli_proxyy_20"
+      - "@meli_proxyy_21"
+      - "@meli_proxyy_22"
+      - "@meli_proxyy_23"
+      - 🪙20@oneclickvpnkeys
       - "@Artemisvpn1_1"
       - "@Artemisvpn1_2"
       - "@Artemisvpn1_3"
       - 📀1@oneclickvpnkeys
-      - "@meli_proxyy_18"
+      - "@meli_proxyy_24"
       - 📀24@oneclickvpnkeys
       - 📀17@oneclickvpnkeys
       - 📀28@oneclickvpnkeys
@@ -2800,124 +2664,112 @@ proxy-groups:
       - "@Artemisvpn1_4"
       - "@Artemisvpn1_5"
       - "@Artemisvpn1_6"
-      - "@meli_proxyy_19"
-      - "@meli_proxyy_20"
-      - "@meli_proxyy_21"
-      - "@Freakconfig"
-      - "@meli_proxyy_22"
-      - "@meli_proxyy_23"
-      - "@meli_proxyy_24"
       - "@meli_proxyy_25"
       - "@meli_proxyy_26"
-      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi
-      - "@Artemisvpn1_7"
-      - 🔺45@oneclickvpnkeys
-      - 🆗1@oneclickvpnkeys
       - "@meli_proxyy_27"
       - "@meli_proxyy_28"
       - "@meli_proxyy_29"
-      - "[_20"
+      - "@Freakconfig"
       - "@meli_proxyy_30"
-      - "@Artemisvpn1_8"
-      - "[_21"
-      - 🆒13@oneclickvpnkeys
       - "@meli_proxyy_31"
       - "@meli_proxyy_32"
+      - "@meli_proxyy_33"
+      - "@meli_proxyy_34"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_1
+      - "@Artemisvpn1_7"
+      - 🔺45@oneclickvpnkeys
+      - 🆗1@oneclickvpnkeys
+      - "@meli_proxyy_35"
+      - "@meli_proxyy_36"
+      - "@meli_proxyy_37"
+      - "@meli_proxyy_38"
+      - "[_17"
+      - "[_18"
+      - "@meli_proxyy_39"
+      - "[_19"
+      - 🆒13@oneclickvpnkeys
+      - "@meli_proxyy_40"
+      - "@meli_proxyy_41"
+      - "[_20"
       - 🆙64@oneclickvpnkeys
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_1
       - 🆎57@oneclickvpnkeys
       - 🆎23@oneclickvpnkeys_1
       - ❗6@oneclickvpnkeys
+      - "@Artemisvpn1_8"
       - "@Artemisvpn1_9"
       - "@Artemisvpn1_10"
       - "@Artemisvpn1_11"
       - "@Artemisvpn1_12"
       - "@Artemisvpn1_13"
-      - "@Artemisvpn1_14"
       - ✴️41@oneclickvpnkeys
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_1
       - ♎41@oneclickvpnkeys
-      - defaultName_3
       - 📳5@oneclickvpnkeys
       - 🆓60@oneclickvpnkeys
       - 🅱️76@oneclickvpnkeys
-      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@meli_proxyyسرورای‌بیشتر_2"
+      - "@meli_proxyyسرورای‌بیشتر_3"
+      - 🌲24@oneclickvpnkeys
+      - (S104)
+      - "Our Channel : @DirectVPN_1"
+      - "[_21"
+      - "@meli_proxyy_42"
+      - "@meli_proxyy_43"
       - "[_22"
+      - "@Parsashonam_4"
+      - "@Parsashonam_5"
+      - "@Parsashonam_6"
+      - "Our Channel : @DirectVPN_2"
       - "[_23"
       - "[_24"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_2"
       - "[_25"
-      - "@meli_proxyy_33"
-      - "@meli_proxyy_34"
-      - "[🏁]t.me/ConfigsHub_1"
-      - "@meli_proxyy_35"
-      - "@mehrosaboran_7"
-      - "@mehrosaboran_8"
-      - "@mehrosaboran_9"
-      - defaultName_4
-      - "@meli_proxyy_36"
       - "[_26"
       - "[_27"
-      - "@meli_proxyy_37"
-      - "@meli_proxyy_38"
-      - "@meli_proxyy_39"
-      - "@Parsashonam_1"
-      - "@Parsashonam_2"
-      - TLS5-ALL|@ArV2ray
-      - WS3-All+|+@ArV2ray
       - "[_28"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_2"
       - "[_29"
-      - "[_30"
-      - TLS4-ALL|@ArV2ray_2
-      - WS2-All+|+@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_2"
-      - "[🏁]t.me/ConfigsHub_3"
-      - "[_31"
-      - "@meli_proxyy_40"
-      - TLS3-ALL|@ArV2ray_2
-      - TLS2-ALL|@ArV2ray_2
-      - "[_32"
-      - "[_33"
-      - WS-All+|+@ArV2ray_2
-      - "@meli_proxyy_41"
-      - "[_34"
-      - "@meli_proxyy_42"
-      - defaultName_5
-      - "@meli_proxyy_43"
       - "@meli_proxyy_44"
-      - defaultName_6
+      - "@meli_proxyy_45"
+      - "[_30"
+      - "[_31"
+      - "[_32"
+      - "@meli_proxyy_46"
+      - "[_33"
+      - "@meli_proxyyسرورای‌بیشتر_4"
+      - "@mehrosaboran_4"
+      - "[_34"
+      - "@meli_proxyy_47"
       - "[_35"
+      - "@meli_proxyy_48"
+      - "@meli_proxyy_49"
+      - "@meli_proxyy_50"
+      - "[🏁]t.me/ConfigsHub_1"
+      - "@meli_proxyy_51"
+      - "@meli_proxyy_52"
+      - "@meli_proxyy_53"
       - "[_36"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_3
       - "[_37"
-      - TLS-ALL|@ArV2ray_2
       - "[_38"
       - "[_39"
-      - WS6-All+|+@ArV2ray_2
-      - "@meli_proxyy_45"
+      - "@mehrosaboran_5"
+      - "@meli_proxyy_54"
       - "[_40"
-      - TLS6-ALL|@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_4"
-      - WS4-All+|+@ArV2ray_2
       - "[_41"
       - "[_42"
       - "[_43"
-      - "@mehrosaboran_10"
-      - "@mehrosaboran_11"
-      - "@mehrosaboran_12"
-      - "@mehrosaboran_13"
       - "[_44"
       - "[_45"
+      - "@meli_proxyy_55"
       - "[_46"
       - "[_47"
-      - "@meli_proxyy_46"
-      - "@meli_proxyy_47"
-      - "@meli_proxyy_48"
       - "[_48"
       - "[_49"
       - "[_50"
+      - "@meli_proxyy_56"
+      - defaultName_2
       - "[_51"
-      - meli_proxyy
+      - "[🏁]t.me/ConfigsHub_2"
       - "[_52"
       - "[_53"
       - "[_54"
@@ -2927,26 +2779,41 @@ proxy-groups:
       - "[_58"
       - "[_59"
       - "[_60"
+      - "@meli_proxyy_57"
+      - "@meli_proxyy_58"
+      - "@meli_proxyy_59"
       - "[_61"
-      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪
       - "[_62"
-      - "@meli_proxyy_49"
-      - "@meli_proxyy_50"
-      - "@meli_proxyy_51"
-      - "@meli_proxyy_52"
+      - "@mehrosaboran_6"
       - "[_63"
-      - "@meli_proxyy_53"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_4
       - "[_64"
-      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
-      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
-      - proxy_mtm
-      - "@Artemisvpn1_15"
       - "[_65"
+      - "[_66"
+      - "[_67"
+      - "[_68"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_1
+      - "[_69"
+      - "[_70"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_2
+      - "[_71"
+      - "@meli_proxyy_60"
+      - "@meli_proxyy_61"
+      - "@meli_proxyy_62"
+      - "@meli_proxyy_63"
+      - "[_72"
+      - "@meli_proxyy_64"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_73"
+      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
+      - "@meli_proxyy_65"
+      - "[_74"
+      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
+      - "@Artemisvpn1_14"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_2
+      - "[_75"
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_2
       - 🆎23@oneclickvpnkeys_2
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_2
-      - defaultName_7
+      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋
       - 🆑40@oneclickvpnkeys
       - رایگان | VMESS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣
       - رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣
@@ -2956,68 +2823,65 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "@Parsashonam_1"
+      - "@Parsashonam_2"
+      - "@Parsashonam_3"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_1"
       - "[_1"
       - "[_2"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_1"
       - "[_3"
-      - "[_4"
+      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@mehrosaboran_1"
-      - "@mehrosaboran_2"
-      - "[_5"
       - "@meli_proxyy_1"
+      - "@meli_proxyy_2"
+      - "[_4"
+      - "[_5"
+      - "@mehrosaboran_2"
+      - "@meli_proxyy_3"
       - "[_6"
-      - TLS4-ALL|@ArV2ray_1
-      - WS2-All+|+@ArV2ray_1
-      - TLS3-ALL|@ArV2ray_1
-      - TLS2-ALL|@ArV2ray_1
+      - defaultName_1
       - "[_7"
       - "[_8"
-      - WS-All+|+@ArV2ray_1
-      - "@meli_proxyy_2"
-      - defaultName_1
-      - "@meli_proxyy_3"
-      - defaultName_2
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
       - "[_9"
-      - TLS-ALL|@ArV2ray_1
       - "[_10"
-      - "[_11"
-      - WS6-All+|+@ArV2ray_1
-      - TLS6-ALL|@ArV2ray_1
-      - WS4-All+|+@ArV2ray_1
-      - "[_12"
-      - "[_13"
       - "@mehrosaboran_3"
-      - "@mehrosaboran_4"
-      - "@mehrosaboran_5"
-      - "@mehrosaboran_6"
-      - "[_14"
+      - "[_11"
+      - "[_12"
       - "@meli_proxyy_4"
-      - "[_15"
-      - "[_16"
-      - "[_17"
-      - "[_18"
+      - "[_13"
+      - "[_14"
       - "@meli_proxyy_5"
       - "@meli_proxyy_6"
       - "@meli_proxyy_7"
-      - "[_19"
       - "@meli_proxyy_8"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_15"
       - "@meli_proxyy_9"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
+      - "@meli_proxyy_10"
+      - "[_16"
+      - 🟣🔥+کانال+سرور+اختصاصی+با+سرعت+بالا+تضمینی+@Outlinev_2rayNG
+      - "@meli_proxyy_11"
       - "@vmessprotocol"
       - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_1
-      - "@meli_proxyy_10"
-      - "@meli_proxyy_11"
       - "@meli_proxyy_12"
       - "@meli_proxyy_13"
       - "@meli_proxyy_14"
       - "@meli_proxyy_15"
       - "@meli_proxyy_16"
       - "@meli_proxyy_17"
+      - "@meli_proxyy_18"
+      - "@meli_proxyy_19"
+      - "@meli_proxyy_20"
+      - "@meli_proxyy_21"
+      - "@meli_proxyy_22"
+      - "@meli_proxyy_23"
+      - 🪙20@oneclickvpnkeys
       - "@Artemisvpn1_1"
       - "@Artemisvpn1_2"
       - "@Artemisvpn1_3"
       - 📀1@oneclickvpnkeys
-      - "@meli_proxyy_18"
+      - "@meli_proxyy_24"
       - 📀24@oneclickvpnkeys
       - 📀17@oneclickvpnkeys
       - 📀28@oneclickvpnkeys
@@ -3026,124 +2890,112 @@ proxy-groups:
       - "@Artemisvpn1_4"
       - "@Artemisvpn1_5"
       - "@Artemisvpn1_6"
-      - "@meli_proxyy_19"
-      - "@meli_proxyy_20"
-      - "@meli_proxyy_21"
-      - "@Freakconfig"
-      - "@meli_proxyy_22"
-      - "@meli_proxyy_23"
-      - "@meli_proxyy_24"
       - "@meli_proxyy_25"
       - "@meli_proxyy_26"
-      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi
-      - "@Artemisvpn1_7"
-      - 🔺45@oneclickvpnkeys
-      - 🆗1@oneclickvpnkeys
       - "@meli_proxyy_27"
       - "@meli_proxyy_28"
       - "@meli_proxyy_29"
-      - "[_20"
+      - "@Freakconfig"
       - "@meli_proxyy_30"
-      - "@Artemisvpn1_8"
-      - "[_21"
-      - 🆒13@oneclickvpnkeys
       - "@meli_proxyy_31"
       - "@meli_proxyy_32"
+      - "@meli_proxyy_33"
+      - "@meli_proxyy_34"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_1
+      - "@Artemisvpn1_7"
+      - 🔺45@oneclickvpnkeys
+      - 🆗1@oneclickvpnkeys
+      - "@meli_proxyy_35"
+      - "@meli_proxyy_36"
+      - "@meli_proxyy_37"
+      - "@meli_proxyy_38"
+      - "[_17"
+      - "[_18"
+      - "@meli_proxyy_39"
+      - "[_19"
+      - 🆒13@oneclickvpnkeys
+      - "@meli_proxyy_40"
+      - "@meli_proxyy_41"
+      - "[_20"
       - 🆙64@oneclickvpnkeys
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_1
       - 🆎57@oneclickvpnkeys
       - 🆎23@oneclickvpnkeys_1
       - ❗6@oneclickvpnkeys
+      - "@Artemisvpn1_8"
       - "@Artemisvpn1_9"
       - "@Artemisvpn1_10"
       - "@Artemisvpn1_11"
       - "@Artemisvpn1_12"
       - "@Artemisvpn1_13"
-      - "@Artemisvpn1_14"
       - ✴️41@oneclickvpnkeys
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_1
       - ♎41@oneclickvpnkeys
-      - defaultName_3
       - 📳5@oneclickvpnkeys
       - 🆓60@oneclickvpnkeys
       - 🅱️76@oneclickvpnkeys
-      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@meli_proxyyسرورای‌بیشتر_2"
+      - "@meli_proxyyسرورای‌بیشتر_3"
+      - 🌲24@oneclickvpnkeys
+      - (S104)
+      - "Our Channel : @DirectVPN_1"
+      - "[_21"
+      - "@meli_proxyy_42"
+      - "@meli_proxyy_43"
       - "[_22"
+      - "@Parsashonam_4"
+      - "@Parsashonam_5"
+      - "@Parsashonam_6"
+      - "Our Channel : @DirectVPN_2"
       - "[_23"
       - "[_24"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_2"
       - "[_25"
-      - "@meli_proxyy_33"
-      - "@meli_proxyy_34"
-      - "[🏁]t.me/ConfigsHub_1"
-      - "@meli_proxyy_35"
-      - "@mehrosaboran_7"
-      - "@mehrosaboran_8"
-      - "@mehrosaboran_9"
-      - defaultName_4
-      - "@meli_proxyy_36"
       - "[_26"
       - "[_27"
-      - "@meli_proxyy_37"
-      - "@meli_proxyy_38"
-      - "@meli_proxyy_39"
-      - "@Parsashonam_1"
-      - "@Parsashonam_2"
-      - TLS5-ALL|@ArV2ray
-      - WS3-All+|+@ArV2ray
       - "[_28"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_2"
       - "[_29"
-      - "[_30"
-      - TLS4-ALL|@ArV2ray_2
-      - WS2-All+|+@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_2"
-      - "[🏁]t.me/ConfigsHub_3"
-      - "[_31"
-      - "@meli_proxyy_40"
-      - TLS3-ALL|@ArV2ray_2
-      - TLS2-ALL|@ArV2ray_2
-      - "[_32"
-      - "[_33"
-      - WS-All+|+@ArV2ray_2
-      - "@meli_proxyy_41"
-      - "[_34"
-      - "@meli_proxyy_42"
-      - defaultName_5
-      - "@meli_proxyy_43"
       - "@meli_proxyy_44"
-      - defaultName_6
+      - "@meli_proxyy_45"
+      - "[_30"
+      - "[_31"
+      - "[_32"
+      - "@meli_proxyy_46"
+      - "[_33"
+      - "@meli_proxyyسرورای‌بیشتر_4"
+      - "@mehrosaboran_4"
+      - "[_34"
+      - "@meli_proxyy_47"
       - "[_35"
+      - "@meli_proxyy_48"
+      - "@meli_proxyy_49"
+      - "@meli_proxyy_50"
+      - "[🏁]t.me/ConfigsHub_1"
+      - "@meli_proxyy_51"
+      - "@meli_proxyy_52"
+      - "@meli_proxyy_53"
       - "[_36"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_3
       - "[_37"
-      - TLS-ALL|@ArV2ray_2
       - "[_38"
       - "[_39"
-      - WS6-All+|+@ArV2ray_2
-      - "@meli_proxyy_45"
+      - "@mehrosaboran_5"
+      - "@meli_proxyy_54"
       - "[_40"
-      - TLS6-ALL|@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_4"
-      - WS4-All+|+@ArV2ray_2
       - "[_41"
       - "[_42"
       - "[_43"
-      - "@mehrosaboran_10"
-      - "@mehrosaboran_11"
-      - "@mehrosaboran_12"
-      - "@mehrosaboran_13"
       - "[_44"
       - "[_45"
+      - "@meli_proxyy_55"
       - "[_46"
       - "[_47"
-      - "@meli_proxyy_46"
-      - "@meli_proxyy_47"
-      - "@meli_proxyy_48"
       - "[_48"
       - "[_49"
       - "[_50"
+      - "@meli_proxyy_56"
+      - defaultName_2
       - "[_51"
-      - meli_proxyy
+      - "[🏁]t.me/ConfigsHub_2"
       - "[_52"
       - "[_53"
       - "[_54"
@@ -3153,26 +3005,41 @@ proxy-groups:
       - "[_58"
       - "[_59"
       - "[_60"
+      - "@meli_proxyy_57"
+      - "@meli_proxyy_58"
+      - "@meli_proxyy_59"
       - "[_61"
-      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪
       - "[_62"
-      - "@meli_proxyy_49"
-      - "@meli_proxyy_50"
-      - "@meli_proxyy_51"
-      - "@meli_proxyy_52"
+      - "@mehrosaboran_6"
       - "[_63"
-      - "@meli_proxyy_53"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_4
       - "[_64"
-      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
-      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
-      - proxy_mtm
-      - "@Artemisvpn1_15"
       - "[_65"
+      - "[_66"
+      - "[_67"
+      - "[_68"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_1
+      - "[_69"
+      - "[_70"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_2
+      - "[_71"
+      - "@meli_proxyy_60"
+      - "@meli_proxyy_61"
+      - "@meli_proxyy_62"
+      - "@meli_proxyy_63"
+      - "[_72"
+      - "@meli_proxyy_64"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_73"
+      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
+      - "@meli_proxyy_65"
+      - "[_74"
+      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
+      - "@Artemisvpn1_14"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_2
+      - "[_75"
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_2
       - 🆎23@oneclickvpnkeys_2
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_2
-      - defaultName_7
+      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋
       - 🆑40@oneclickvpnkeys
       - رایگان | VMESS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣
       - رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣
@@ -3181,68 +3048,65 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "@Parsashonam_1"
+      - "@Parsashonam_2"
+      - "@Parsashonam_3"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_1"
       - "[_1"
       - "[_2"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_1"
       - "[_3"
-      - "[_4"
+      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@mehrosaboran_1"
-      - "@mehrosaboran_2"
-      - "[_5"
       - "@meli_proxyy_1"
+      - "@meli_proxyy_2"
+      - "[_4"
+      - "[_5"
+      - "@mehrosaboran_2"
+      - "@meli_proxyy_3"
       - "[_6"
-      - TLS4-ALL|@ArV2ray_1
-      - WS2-All+|+@ArV2ray_1
-      - TLS3-ALL|@ArV2ray_1
-      - TLS2-ALL|@ArV2ray_1
+      - defaultName_1
       - "[_7"
       - "[_8"
-      - WS-All+|+@ArV2ray_1
-      - "@meli_proxyy_2"
-      - defaultName_1
-      - "@meli_proxyy_3"
-      - defaultName_2
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
       - "[_9"
-      - TLS-ALL|@ArV2ray_1
       - "[_10"
-      - "[_11"
-      - WS6-All+|+@ArV2ray_1
-      - TLS6-ALL|@ArV2ray_1
-      - WS4-All+|+@ArV2ray_1
-      - "[_12"
-      - "[_13"
       - "@mehrosaboran_3"
-      - "@mehrosaboran_4"
-      - "@mehrosaboran_5"
-      - "@mehrosaboran_6"
-      - "[_14"
+      - "[_11"
+      - "[_12"
       - "@meli_proxyy_4"
-      - "[_15"
-      - "[_16"
-      - "[_17"
-      - "[_18"
+      - "[_13"
+      - "[_14"
       - "@meli_proxyy_5"
       - "@meli_proxyy_6"
       - "@meli_proxyy_7"
-      - "[_19"
       - "@meli_proxyy_8"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_15"
       - "@meli_proxyy_9"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
+      - "@meli_proxyy_10"
+      - "[_16"
+      - 🟣🔥+کانال+سرور+اختصاصی+با+سرعت+بالا+تضمینی+@Outlinev_2rayNG
+      - "@meli_proxyy_11"
       - "@vmessprotocol"
       - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_1
-      - "@meli_proxyy_10"
-      - "@meli_proxyy_11"
       - "@meli_proxyy_12"
       - "@meli_proxyy_13"
       - "@meli_proxyy_14"
       - "@meli_proxyy_15"
       - "@meli_proxyy_16"
       - "@meli_proxyy_17"
+      - "@meli_proxyy_18"
+      - "@meli_proxyy_19"
+      - "@meli_proxyy_20"
+      - "@meli_proxyy_21"
+      - "@meli_proxyy_22"
+      - "@meli_proxyy_23"
+      - 🪙20@oneclickvpnkeys
       - "@Artemisvpn1_1"
       - "@Artemisvpn1_2"
       - "@Artemisvpn1_3"
       - 📀1@oneclickvpnkeys
-      - "@meli_proxyy_18"
+      - "@meli_proxyy_24"
       - 📀24@oneclickvpnkeys
       - 📀17@oneclickvpnkeys
       - 📀28@oneclickvpnkeys
@@ -3251,124 +3115,112 @@ proxy-groups:
       - "@Artemisvpn1_4"
       - "@Artemisvpn1_5"
       - "@Artemisvpn1_6"
-      - "@meli_proxyy_19"
-      - "@meli_proxyy_20"
-      - "@meli_proxyy_21"
-      - "@Freakconfig"
-      - "@meli_proxyy_22"
-      - "@meli_proxyy_23"
-      - "@meli_proxyy_24"
       - "@meli_proxyy_25"
       - "@meli_proxyy_26"
-      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi
-      - "@Artemisvpn1_7"
-      - 🔺45@oneclickvpnkeys
-      - 🆗1@oneclickvpnkeys
       - "@meli_proxyy_27"
       - "@meli_proxyy_28"
       - "@meli_proxyy_29"
-      - "[_20"
+      - "@Freakconfig"
       - "@meli_proxyy_30"
-      - "@Artemisvpn1_8"
-      - "[_21"
-      - 🆒13@oneclickvpnkeys
       - "@meli_proxyy_31"
       - "@meli_proxyy_32"
+      - "@meli_proxyy_33"
+      - "@meli_proxyy_34"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_1
+      - "@Artemisvpn1_7"
+      - 🔺45@oneclickvpnkeys
+      - 🆗1@oneclickvpnkeys
+      - "@meli_proxyy_35"
+      - "@meli_proxyy_36"
+      - "@meli_proxyy_37"
+      - "@meli_proxyy_38"
+      - "[_17"
+      - "[_18"
+      - "@meli_proxyy_39"
+      - "[_19"
+      - 🆒13@oneclickvpnkeys
+      - "@meli_proxyy_40"
+      - "@meli_proxyy_41"
+      - "[_20"
       - 🆙64@oneclickvpnkeys
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_1
       - 🆎57@oneclickvpnkeys
       - 🆎23@oneclickvpnkeys_1
       - ❗6@oneclickvpnkeys
+      - "@Artemisvpn1_8"
       - "@Artemisvpn1_9"
       - "@Artemisvpn1_10"
       - "@Artemisvpn1_11"
       - "@Artemisvpn1_12"
       - "@Artemisvpn1_13"
-      - "@Artemisvpn1_14"
       - ✴️41@oneclickvpnkeys
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_1
       - ♎41@oneclickvpnkeys
-      - defaultName_3
       - 📳5@oneclickvpnkeys
       - 🆓60@oneclickvpnkeys
       - 🅱️76@oneclickvpnkeys
-      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@meli_proxyyسرورای‌بیشتر_2"
+      - "@meli_proxyyسرورای‌بیشتر_3"
+      - 🌲24@oneclickvpnkeys
+      - (S104)
+      - "Our Channel : @DirectVPN_1"
+      - "[_21"
+      - "@meli_proxyy_42"
+      - "@meli_proxyy_43"
       - "[_22"
+      - "@Parsashonam_4"
+      - "@Parsashonam_5"
+      - "@Parsashonam_6"
+      - "Our Channel : @DirectVPN_2"
       - "[_23"
       - "[_24"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_2"
       - "[_25"
-      - "@meli_proxyy_33"
-      - "@meli_proxyy_34"
-      - "[🏁]t.me/ConfigsHub_1"
-      - "@meli_proxyy_35"
-      - "@mehrosaboran_7"
-      - "@mehrosaboran_8"
-      - "@mehrosaboran_9"
-      - defaultName_4
-      - "@meli_proxyy_36"
       - "[_26"
       - "[_27"
-      - "@meli_proxyy_37"
-      - "@meli_proxyy_38"
-      - "@meli_proxyy_39"
-      - "@Parsashonam_1"
-      - "@Parsashonam_2"
-      - TLS5-ALL|@ArV2ray
-      - WS3-All+|+@ArV2ray
       - "[_28"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_2"
       - "[_29"
-      - "[_30"
-      - TLS4-ALL|@ArV2ray_2
-      - WS2-All+|+@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_2"
-      - "[🏁]t.me/ConfigsHub_3"
-      - "[_31"
-      - "@meli_proxyy_40"
-      - TLS3-ALL|@ArV2ray_2
-      - TLS2-ALL|@ArV2ray_2
-      - "[_32"
-      - "[_33"
-      - WS-All+|+@ArV2ray_2
-      - "@meli_proxyy_41"
-      - "[_34"
-      - "@meli_proxyy_42"
-      - defaultName_5
-      - "@meli_proxyy_43"
       - "@meli_proxyy_44"
-      - defaultName_6
+      - "@meli_proxyy_45"
+      - "[_30"
+      - "[_31"
+      - "[_32"
+      - "@meli_proxyy_46"
+      - "[_33"
+      - "@meli_proxyyسرورای‌بیشتر_4"
+      - "@mehrosaboran_4"
+      - "[_34"
+      - "@meli_proxyy_47"
       - "[_35"
+      - "@meli_proxyy_48"
+      - "@meli_proxyy_49"
+      - "@meli_proxyy_50"
+      - "[🏁]t.me/ConfigsHub_1"
+      - "@meli_proxyy_51"
+      - "@meli_proxyy_52"
+      - "@meli_proxyy_53"
       - "[_36"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_3
       - "[_37"
-      - TLS-ALL|@ArV2ray_2
       - "[_38"
       - "[_39"
-      - WS6-All+|+@ArV2ray_2
-      - "@meli_proxyy_45"
+      - "@mehrosaboran_5"
+      - "@meli_proxyy_54"
       - "[_40"
-      - TLS6-ALL|@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_4"
-      - WS4-All+|+@ArV2ray_2
       - "[_41"
       - "[_42"
       - "[_43"
-      - "@mehrosaboran_10"
-      - "@mehrosaboran_11"
-      - "@mehrosaboran_12"
-      - "@mehrosaboran_13"
       - "[_44"
       - "[_45"
+      - "@meli_proxyy_55"
       - "[_46"
       - "[_47"
-      - "@meli_proxyy_46"
-      - "@meli_proxyy_47"
-      - "@meli_proxyy_48"
       - "[_48"
       - "[_49"
       - "[_50"
+      - "@meli_proxyy_56"
+      - defaultName_2
       - "[_51"
-      - meli_proxyy
+      - "[🏁]t.me/ConfigsHub_2"
       - "[_52"
       - "[_53"
       - "[_54"
@@ -3378,26 +3230,41 @@ proxy-groups:
       - "[_58"
       - "[_59"
       - "[_60"
+      - "@meli_proxyy_57"
+      - "@meli_proxyy_58"
+      - "@meli_proxyy_59"
       - "[_61"
-      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪
       - "[_62"
-      - "@meli_proxyy_49"
-      - "@meli_proxyy_50"
-      - "@meli_proxyy_51"
-      - "@meli_proxyy_52"
+      - "@mehrosaboran_6"
       - "[_63"
-      - "@meli_proxyy_53"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_4
       - "[_64"
-      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
-      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
-      - proxy_mtm
-      - "@Artemisvpn1_15"
       - "[_65"
+      - "[_66"
+      - "[_67"
+      - "[_68"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_1
+      - "[_69"
+      - "[_70"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_2
+      - "[_71"
+      - "@meli_proxyy_60"
+      - "@meli_proxyy_61"
+      - "@meli_proxyy_62"
+      - "@meli_proxyy_63"
+      - "[_72"
+      - "@meli_proxyy_64"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_73"
+      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
+      - "@meli_proxyy_65"
+      - "[_74"
+      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
+      - "@Artemisvpn1_14"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_2
+      - "[_75"
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_2
       - 🆎23@oneclickvpnkeys_2
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_2
-      - defaultName_7
+      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋
       - 🆑40@oneclickvpnkeys
       - رایگان | VMESS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣
       - رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣
@@ -3406,68 +3273,65 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - "@Parsashonam_1"
+      - "@Parsashonam_2"
+      - "@Parsashonam_3"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_1"
       - "[_1"
       - "[_2"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_1"
       - "[_3"
-      - "[_4"
+      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@mehrosaboran_1"
-      - "@mehrosaboran_2"
-      - "[_5"
       - "@meli_proxyy_1"
+      - "@meli_proxyy_2"
+      - "[_4"
+      - "[_5"
+      - "@mehrosaboran_2"
+      - "@meli_proxyy_3"
       - "[_6"
-      - TLS4-ALL|@ArV2ray_1
-      - WS2-All+|+@ArV2ray_1
-      - TLS3-ALL|@ArV2ray_1
-      - TLS2-ALL|@ArV2ray_1
+      - defaultName_1
       - "[_7"
       - "[_8"
-      - WS-All+|+@ArV2ray_1
-      - "@meli_proxyy_2"
-      - defaultName_1
-      - "@meli_proxyy_3"
-      - defaultName_2
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
       - "[_9"
-      - TLS-ALL|@ArV2ray_1
       - "[_10"
-      - "[_11"
-      - WS6-All+|+@ArV2ray_1
-      - TLS6-ALL|@ArV2ray_1
-      - WS4-All+|+@ArV2ray_1
-      - "[_12"
-      - "[_13"
       - "@mehrosaboran_3"
-      - "@mehrosaboran_4"
-      - "@mehrosaboran_5"
-      - "@mehrosaboran_6"
-      - "[_14"
+      - "[_11"
+      - "[_12"
       - "@meli_proxyy_4"
-      - "[_15"
-      - "[_16"
-      - "[_17"
-      - "[_18"
+      - "[_13"
+      - "[_14"
       - "@meli_proxyy_5"
       - "@meli_proxyy_6"
       - "@meli_proxyy_7"
-      - "[_19"
       - "@meli_proxyy_8"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_15"
       - "@meli_proxyy_9"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
+      - "@meli_proxyy_10"
+      - "[_16"
+      - 🟣🔥+کانال+سرور+اختصاصی+با+سرعت+بالا+تضمینی+@Outlinev_2rayNG
+      - "@meli_proxyy_11"
       - "@vmessprotocol"
       - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_1
-      - "@meli_proxyy_10"
-      - "@meli_proxyy_11"
       - "@meli_proxyy_12"
       - "@meli_proxyy_13"
       - "@meli_proxyy_14"
       - "@meli_proxyy_15"
       - "@meli_proxyy_16"
       - "@meli_proxyy_17"
+      - "@meli_proxyy_18"
+      - "@meli_proxyy_19"
+      - "@meli_proxyy_20"
+      - "@meli_proxyy_21"
+      - "@meli_proxyy_22"
+      - "@meli_proxyy_23"
+      - 🪙20@oneclickvpnkeys
       - "@Artemisvpn1_1"
       - "@Artemisvpn1_2"
       - "@Artemisvpn1_3"
       - 📀1@oneclickvpnkeys
-      - "@meli_proxyy_18"
+      - "@meli_proxyy_24"
       - 📀24@oneclickvpnkeys
       - 📀17@oneclickvpnkeys
       - 📀28@oneclickvpnkeys
@@ -3476,124 +3340,112 @@ proxy-groups:
       - "@Artemisvpn1_4"
       - "@Artemisvpn1_5"
       - "@Artemisvpn1_6"
-      - "@meli_proxyy_19"
-      - "@meli_proxyy_20"
-      - "@meli_proxyy_21"
-      - "@Freakconfig"
-      - "@meli_proxyy_22"
-      - "@meli_proxyy_23"
-      - "@meli_proxyy_24"
       - "@meli_proxyy_25"
       - "@meli_proxyy_26"
-      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi
-      - "@Artemisvpn1_7"
-      - 🔺45@oneclickvpnkeys
-      - 🆗1@oneclickvpnkeys
       - "@meli_proxyy_27"
       - "@meli_proxyy_28"
       - "@meli_proxyy_29"
-      - "[_20"
+      - "@Freakconfig"
       - "@meli_proxyy_30"
-      - "@Artemisvpn1_8"
-      - "[_21"
-      - 🆒13@oneclickvpnkeys
       - "@meli_proxyy_31"
       - "@meli_proxyy_32"
+      - "@meli_proxyy_33"
+      - "@meli_proxyy_34"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_1
+      - "@Artemisvpn1_7"
+      - 🔺45@oneclickvpnkeys
+      - 🆗1@oneclickvpnkeys
+      - "@meli_proxyy_35"
+      - "@meli_proxyy_36"
+      - "@meli_proxyy_37"
+      - "@meli_proxyy_38"
+      - "[_17"
+      - "[_18"
+      - "@meli_proxyy_39"
+      - "[_19"
+      - 🆒13@oneclickvpnkeys
+      - "@meli_proxyy_40"
+      - "@meli_proxyy_41"
+      - "[_20"
       - 🆙64@oneclickvpnkeys
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_1
       - 🆎57@oneclickvpnkeys
       - 🆎23@oneclickvpnkeys_1
       - ❗6@oneclickvpnkeys
+      - "@Artemisvpn1_8"
       - "@Artemisvpn1_9"
       - "@Artemisvpn1_10"
       - "@Artemisvpn1_11"
       - "@Artemisvpn1_12"
       - "@Artemisvpn1_13"
-      - "@Artemisvpn1_14"
       - ✴️41@oneclickvpnkeys
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_1
       - ♎41@oneclickvpnkeys
-      - defaultName_3
       - 📳5@oneclickvpnkeys
       - 🆓60@oneclickvpnkeys
       - 🅱️76@oneclickvpnkeys
-      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@meli_proxyyسرورای‌بیشتر_2"
+      - "@meli_proxyyسرورای‌بیشتر_3"
+      - 🌲24@oneclickvpnkeys
+      - (S104)
+      - "Our Channel : @DirectVPN_1"
+      - "[_21"
+      - "@meli_proxyy_42"
+      - "@meli_proxyy_43"
       - "[_22"
+      - "@Parsashonam_4"
+      - "@Parsashonam_5"
+      - "@Parsashonam_6"
+      - "Our Channel : @DirectVPN_2"
       - "[_23"
       - "[_24"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_2"
       - "[_25"
-      - "@meli_proxyy_33"
-      - "@meli_proxyy_34"
-      - "[🏁]t.me/ConfigsHub_1"
-      - "@meli_proxyy_35"
-      - "@mehrosaboran_7"
-      - "@mehrosaboran_8"
-      - "@mehrosaboran_9"
-      - defaultName_4
-      - "@meli_proxyy_36"
       - "[_26"
       - "[_27"
-      - "@meli_proxyy_37"
-      - "@meli_proxyy_38"
-      - "@meli_proxyy_39"
-      - "@Parsashonam_1"
-      - "@Parsashonam_2"
-      - TLS5-ALL|@ArV2ray
-      - WS3-All+|+@ArV2ray
       - "[_28"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_2"
       - "[_29"
-      - "[_30"
-      - TLS4-ALL|@ArV2ray_2
-      - WS2-All+|+@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_2"
-      - "[🏁]t.me/ConfigsHub_3"
-      - "[_31"
-      - "@meli_proxyy_40"
-      - TLS3-ALL|@ArV2ray_2
-      - TLS2-ALL|@ArV2ray_2
-      - "[_32"
-      - "[_33"
-      - WS-All+|+@ArV2ray_2
-      - "@meli_proxyy_41"
-      - "[_34"
-      - "@meli_proxyy_42"
-      - defaultName_5
-      - "@meli_proxyy_43"
       - "@meli_proxyy_44"
-      - defaultName_6
+      - "@meli_proxyy_45"
+      - "[_30"
+      - "[_31"
+      - "[_32"
+      - "@meli_proxyy_46"
+      - "[_33"
+      - "@meli_proxyyسرورای‌بیشتر_4"
+      - "@mehrosaboran_4"
+      - "[_34"
+      - "@meli_proxyy_47"
       - "[_35"
+      - "@meli_proxyy_48"
+      - "@meli_proxyy_49"
+      - "@meli_proxyy_50"
+      - "[🏁]t.me/ConfigsHub_1"
+      - "@meli_proxyy_51"
+      - "@meli_proxyy_52"
+      - "@meli_proxyy_53"
       - "[_36"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_3
       - "[_37"
-      - TLS-ALL|@ArV2ray_2
       - "[_38"
       - "[_39"
-      - WS6-All+|+@ArV2ray_2
-      - "@meli_proxyy_45"
+      - "@mehrosaboran_5"
+      - "@meli_proxyy_54"
       - "[_40"
-      - TLS6-ALL|@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_4"
-      - WS4-All+|+@ArV2ray_2
       - "[_41"
       - "[_42"
       - "[_43"
-      - "@mehrosaboran_10"
-      - "@mehrosaboran_11"
-      - "@mehrosaboran_12"
-      - "@mehrosaboran_13"
       - "[_44"
       - "[_45"
+      - "@meli_proxyy_55"
       - "[_46"
       - "[_47"
-      - "@meli_proxyy_46"
-      - "@meli_proxyy_47"
-      - "@meli_proxyy_48"
       - "[_48"
       - "[_49"
       - "[_50"
+      - "@meli_proxyy_56"
+      - defaultName_2
       - "[_51"
-      - meli_proxyy
+      - "[🏁]t.me/ConfigsHub_2"
       - "[_52"
       - "[_53"
       - "[_54"
@@ -3603,26 +3455,41 @@ proxy-groups:
       - "[_58"
       - "[_59"
       - "[_60"
+      - "@meli_proxyy_57"
+      - "@meli_proxyy_58"
+      - "@meli_proxyy_59"
       - "[_61"
-      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪
       - "[_62"
-      - "@meli_proxyy_49"
-      - "@meli_proxyy_50"
-      - "@meli_proxyy_51"
-      - "@meli_proxyy_52"
+      - "@mehrosaboran_6"
       - "[_63"
-      - "@meli_proxyy_53"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_4
       - "[_64"
-      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
-      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
-      - proxy_mtm
-      - "@Artemisvpn1_15"
       - "[_65"
+      - "[_66"
+      - "[_67"
+      - "[_68"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_1
+      - "[_69"
+      - "[_70"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_2
+      - "[_71"
+      - "@meli_proxyy_60"
+      - "@meli_proxyy_61"
+      - "@meli_proxyy_62"
+      - "@meli_proxyy_63"
+      - "[_72"
+      - "@meli_proxyy_64"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_73"
+      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
+      - "@meli_proxyy_65"
+      - "[_74"
+      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
+      - "@Artemisvpn1_14"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_2
+      - "[_75"
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_2
       - 🆎23@oneclickvpnkeys_2
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_2
-      - defaultName_7
+      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋
       - 🆑40@oneclickvpnkeys
       - رایگان | VMESS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣
       - رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣
@@ -3631,68 +3498,65 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "@Parsashonam_1"
+      - "@Parsashonam_2"
+      - "@Parsashonam_3"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_1"
       - "[_1"
       - "[_2"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_1"
       - "[_3"
-      - "[_4"
+      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@mehrosaboran_1"
-      - "@mehrosaboran_2"
-      - "[_5"
       - "@meli_proxyy_1"
+      - "@meli_proxyy_2"
+      - "[_4"
+      - "[_5"
+      - "@mehrosaboran_2"
+      - "@meli_proxyy_3"
       - "[_6"
-      - TLS4-ALL|@ArV2ray_1
-      - WS2-All+|+@ArV2ray_1
-      - TLS3-ALL|@ArV2ray_1
-      - TLS2-ALL|@ArV2ray_1
+      - defaultName_1
       - "[_7"
       - "[_8"
-      - WS-All+|+@ArV2ray_1
-      - "@meli_proxyy_2"
-      - defaultName_1
-      - "@meli_proxyy_3"
-      - defaultName_2
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
       - "[_9"
-      - TLS-ALL|@ArV2ray_1
       - "[_10"
-      - "[_11"
-      - WS6-All+|+@ArV2ray_1
-      - TLS6-ALL|@ArV2ray_1
-      - WS4-All+|+@ArV2ray_1
-      - "[_12"
-      - "[_13"
       - "@mehrosaboran_3"
-      - "@mehrosaboran_4"
-      - "@mehrosaboran_5"
-      - "@mehrosaboran_6"
-      - "[_14"
+      - "[_11"
+      - "[_12"
       - "@meli_proxyy_4"
-      - "[_15"
-      - "[_16"
-      - "[_17"
-      - "[_18"
+      - "[_13"
+      - "[_14"
       - "@meli_proxyy_5"
       - "@meli_proxyy_6"
       - "@meli_proxyy_7"
-      - "[_19"
       - "@meli_proxyy_8"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_15"
       - "@meli_proxyy_9"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
+      - "@meli_proxyy_10"
+      - "[_16"
+      - 🟣🔥+کانال+سرور+اختصاصی+با+سرعت+بالا+تضمینی+@Outlinev_2rayNG
+      - "@meli_proxyy_11"
       - "@vmessprotocol"
       - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_1
-      - "@meli_proxyy_10"
-      - "@meli_proxyy_11"
       - "@meli_proxyy_12"
       - "@meli_proxyy_13"
       - "@meli_proxyy_14"
       - "@meli_proxyy_15"
       - "@meli_proxyy_16"
       - "@meli_proxyy_17"
+      - "@meli_proxyy_18"
+      - "@meli_proxyy_19"
+      - "@meli_proxyy_20"
+      - "@meli_proxyy_21"
+      - "@meli_proxyy_22"
+      - "@meli_proxyy_23"
+      - 🪙20@oneclickvpnkeys
       - "@Artemisvpn1_1"
       - "@Artemisvpn1_2"
       - "@Artemisvpn1_3"
       - 📀1@oneclickvpnkeys
-      - "@meli_proxyy_18"
+      - "@meli_proxyy_24"
       - 📀24@oneclickvpnkeys
       - 📀17@oneclickvpnkeys
       - 📀28@oneclickvpnkeys
@@ -3701,124 +3565,112 @@ proxy-groups:
       - "@Artemisvpn1_4"
       - "@Artemisvpn1_5"
       - "@Artemisvpn1_6"
-      - "@meli_proxyy_19"
-      - "@meli_proxyy_20"
-      - "@meli_proxyy_21"
-      - "@Freakconfig"
-      - "@meli_proxyy_22"
-      - "@meli_proxyy_23"
-      - "@meli_proxyy_24"
       - "@meli_proxyy_25"
       - "@meli_proxyy_26"
-      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi
-      - "@Artemisvpn1_7"
-      - 🔺45@oneclickvpnkeys
-      - 🆗1@oneclickvpnkeys
       - "@meli_proxyy_27"
       - "@meli_proxyy_28"
       - "@meli_proxyy_29"
-      - "[_20"
+      - "@Freakconfig"
       - "@meli_proxyy_30"
-      - "@Artemisvpn1_8"
-      - "[_21"
-      - 🆒13@oneclickvpnkeys
       - "@meli_proxyy_31"
       - "@meli_proxyy_32"
+      - "@meli_proxyy_33"
+      - "@meli_proxyy_34"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_1
+      - "@Artemisvpn1_7"
+      - 🔺45@oneclickvpnkeys
+      - 🆗1@oneclickvpnkeys
+      - "@meli_proxyy_35"
+      - "@meli_proxyy_36"
+      - "@meli_proxyy_37"
+      - "@meli_proxyy_38"
+      - "[_17"
+      - "[_18"
+      - "@meli_proxyy_39"
+      - "[_19"
+      - 🆒13@oneclickvpnkeys
+      - "@meli_proxyy_40"
+      - "@meli_proxyy_41"
+      - "[_20"
       - 🆙64@oneclickvpnkeys
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_1
       - 🆎57@oneclickvpnkeys
       - 🆎23@oneclickvpnkeys_1
       - ❗6@oneclickvpnkeys
+      - "@Artemisvpn1_8"
       - "@Artemisvpn1_9"
       - "@Artemisvpn1_10"
       - "@Artemisvpn1_11"
       - "@Artemisvpn1_12"
       - "@Artemisvpn1_13"
-      - "@Artemisvpn1_14"
       - ✴️41@oneclickvpnkeys
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_1
       - ♎41@oneclickvpnkeys
-      - defaultName_3
       - 📳5@oneclickvpnkeys
       - 🆓60@oneclickvpnkeys
       - 🅱️76@oneclickvpnkeys
-      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@meli_proxyyسرورای‌بیشتر_2"
+      - "@meli_proxyyسرورای‌بیشتر_3"
+      - 🌲24@oneclickvpnkeys
+      - (S104)
+      - "Our Channel : @DirectVPN_1"
+      - "[_21"
+      - "@meli_proxyy_42"
+      - "@meli_proxyy_43"
       - "[_22"
+      - "@Parsashonam_4"
+      - "@Parsashonam_5"
+      - "@Parsashonam_6"
+      - "Our Channel : @DirectVPN_2"
       - "[_23"
       - "[_24"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_2"
       - "[_25"
-      - "@meli_proxyy_33"
-      - "@meli_proxyy_34"
-      - "[🏁]t.me/ConfigsHub_1"
-      - "@meli_proxyy_35"
-      - "@mehrosaboran_7"
-      - "@mehrosaboran_8"
-      - "@mehrosaboran_9"
-      - defaultName_4
-      - "@meli_proxyy_36"
       - "[_26"
       - "[_27"
-      - "@meli_proxyy_37"
-      - "@meli_proxyy_38"
-      - "@meli_proxyy_39"
-      - "@Parsashonam_1"
-      - "@Parsashonam_2"
-      - TLS5-ALL|@ArV2ray
-      - WS3-All+|+@ArV2ray
       - "[_28"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_2"
       - "[_29"
-      - "[_30"
-      - TLS4-ALL|@ArV2ray_2
-      - WS2-All+|+@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_2"
-      - "[🏁]t.me/ConfigsHub_3"
-      - "[_31"
-      - "@meli_proxyy_40"
-      - TLS3-ALL|@ArV2ray_2
-      - TLS2-ALL|@ArV2ray_2
-      - "[_32"
-      - "[_33"
-      - WS-All+|+@ArV2ray_2
-      - "@meli_proxyy_41"
-      - "[_34"
-      - "@meli_proxyy_42"
-      - defaultName_5
-      - "@meli_proxyy_43"
       - "@meli_proxyy_44"
-      - defaultName_6
+      - "@meli_proxyy_45"
+      - "[_30"
+      - "[_31"
+      - "[_32"
+      - "@meli_proxyy_46"
+      - "[_33"
+      - "@meli_proxyyسرورای‌بیشتر_4"
+      - "@mehrosaboran_4"
+      - "[_34"
+      - "@meli_proxyy_47"
       - "[_35"
+      - "@meli_proxyy_48"
+      - "@meli_proxyy_49"
+      - "@meli_proxyy_50"
+      - "[🏁]t.me/ConfigsHub_1"
+      - "@meli_proxyy_51"
+      - "@meli_proxyy_52"
+      - "@meli_proxyy_53"
       - "[_36"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_3
       - "[_37"
-      - TLS-ALL|@ArV2ray_2
       - "[_38"
       - "[_39"
-      - WS6-All+|+@ArV2ray_2
-      - "@meli_proxyy_45"
+      - "@mehrosaboran_5"
+      - "@meli_proxyy_54"
       - "[_40"
-      - TLS6-ALL|@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_4"
-      - WS4-All+|+@ArV2ray_2
       - "[_41"
       - "[_42"
       - "[_43"
-      - "@mehrosaboran_10"
-      - "@mehrosaboran_11"
-      - "@mehrosaboran_12"
-      - "@mehrosaboran_13"
       - "[_44"
       - "[_45"
+      - "@meli_proxyy_55"
       - "[_46"
       - "[_47"
-      - "@meli_proxyy_46"
-      - "@meli_proxyy_47"
-      - "@meli_proxyy_48"
       - "[_48"
       - "[_49"
       - "[_50"
+      - "@meli_proxyy_56"
+      - defaultName_2
       - "[_51"
-      - meli_proxyy
+      - "[🏁]t.me/ConfigsHub_2"
       - "[_52"
       - "[_53"
       - "[_54"
@@ -3828,26 +3680,41 @@ proxy-groups:
       - "[_58"
       - "[_59"
       - "[_60"
+      - "@meli_proxyy_57"
+      - "@meli_proxyy_58"
+      - "@meli_proxyy_59"
       - "[_61"
-      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪
       - "[_62"
-      - "@meli_proxyy_49"
-      - "@meli_proxyy_50"
-      - "@meli_proxyy_51"
-      - "@meli_proxyy_52"
+      - "@mehrosaboran_6"
       - "[_63"
-      - "@meli_proxyy_53"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_4
       - "[_64"
-      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
-      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
-      - proxy_mtm
-      - "@Artemisvpn1_15"
       - "[_65"
+      - "[_66"
+      - "[_67"
+      - "[_68"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_1
+      - "[_69"
+      - "[_70"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_2
+      - "[_71"
+      - "@meli_proxyy_60"
+      - "@meli_proxyy_61"
+      - "@meli_proxyy_62"
+      - "@meli_proxyy_63"
+      - "[_72"
+      - "@meli_proxyy_64"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_73"
+      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
+      - "@meli_proxyy_65"
+      - "[_74"
+      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
+      - "@Artemisvpn1_14"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_2
+      - "[_75"
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_2
       - 🆎23@oneclickvpnkeys_2
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_2
-      - defaultName_7
+      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋
       - 🆑40@oneclickvpnkeys
       - رایگان | VMESS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣
       - رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣
@@ -3873,68 +3740,65 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "@Parsashonam_1"
+      - "@Parsashonam_2"
+      - "@Parsashonam_3"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_1"
       - "[_1"
       - "[_2"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_1"
       - "[_3"
-      - "[_4"
+      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@mehrosaboran_1"
-      - "@mehrosaboran_2"
-      - "[_5"
       - "@meli_proxyy_1"
+      - "@meli_proxyy_2"
+      - "[_4"
+      - "[_5"
+      - "@mehrosaboran_2"
+      - "@meli_proxyy_3"
       - "[_6"
-      - TLS4-ALL|@ArV2ray_1
-      - WS2-All+|+@ArV2ray_1
-      - TLS3-ALL|@ArV2ray_1
-      - TLS2-ALL|@ArV2ray_1
+      - defaultName_1
       - "[_7"
       - "[_8"
-      - WS-All+|+@ArV2ray_1
-      - "@meli_proxyy_2"
-      - defaultName_1
-      - "@meli_proxyy_3"
-      - defaultName_2
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
       - "[_9"
-      - TLS-ALL|@ArV2ray_1
       - "[_10"
-      - "[_11"
-      - WS6-All+|+@ArV2ray_1
-      - TLS6-ALL|@ArV2ray_1
-      - WS4-All+|+@ArV2ray_1
-      - "[_12"
-      - "[_13"
       - "@mehrosaboran_3"
-      - "@mehrosaboran_4"
-      - "@mehrosaboran_5"
-      - "@mehrosaboran_6"
-      - "[_14"
+      - "[_11"
+      - "[_12"
       - "@meli_proxyy_4"
-      - "[_15"
-      - "[_16"
-      - "[_17"
-      - "[_18"
+      - "[_13"
+      - "[_14"
       - "@meli_proxyy_5"
       - "@meli_proxyy_6"
       - "@meli_proxyy_7"
-      - "[_19"
       - "@meli_proxyy_8"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_15"
       - "@meli_proxyy_9"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_1
+      - "@meli_proxyy_10"
+      - "[_16"
+      - 🟣🔥+کانال+سرور+اختصاصی+با+سرعت+بالا+تضمینی+@Outlinev_2rayNG
+      - "@meli_proxyy_11"
       - "@vmessprotocol"
       - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_1
-      - "@meli_proxyy_10"
-      - "@meli_proxyy_11"
       - "@meli_proxyy_12"
       - "@meli_proxyy_13"
       - "@meli_proxyy_14"
       - "@meli_proxyy_15"
       - "@meli_proxyy_16"
       - "@meli_proxyy_17"
+      - "@meli_proxyy_18"
+      - "@meli_proxyy_19"
+      - "@meli_proxyy_20"
+      - "@meli_proxyy_21"
+      - "@meli_proxyy_22"
+      - "@meli_proxyy_23"
+      - 🪙20@oneclickvpnkeys
       - "@Artemisvpn1_1"
       - "@Artemisvpn1_2"
       - "@Artemisvpn1_3"
       - 📀1@oneclickvpnkeys
-      - "@meli_proxyy_18"
+      - "@meli_proxyy_24"
       - 📀24@oneclickvpnkeys
       - 📀17@oneclickvpnkeys
       - 📀28@oneclickvpnkeys
@@ -3943,124 +3807,112 @@ proxy-groups:
       - "@Artemisvpn1_4"
       - "@Artemisvpn1_5"
       - "@Artemisvpn1_6"
-      - "@meli_proxyy_19"
-      - "@meli_proxyy_20"
-      - "@meli_proxyy_21"
-      - "@Freakconfig"
-      - "@meli_proxyy_22"
-      - "@meli_proxyy_23"
-      - "@meli_proxyy_24"
       - "@meli_proxyy_25"
       - "@meli_proxyy_26"
-      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi
-      - "@Artemisvpn1_7"
-      - 🔺45@oneclickvpnkeys
-      - 🆗1@oneclickvpnkeys
       - "@meli_proxyy_27"
       - "@meli_proxyy_28"
       - "@meli_proxyy_29"
-      - "[_20"
+      - "@Freakconfig"
       - "@meli_proxyy_30"
-      - "@Artemisvpn1_8"
-      - "[_21"
-      - 🆒13@oneclickvpnkeys
       - "@meli_proxyy_31"
       - "@meli_proxyy_32"
+      - "@meli_proxyy_33"
+      - "@meli_proxyy_34"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_1
+      - "@Artemisvpn1_7"
+      - 🔺45@oneclickvpnkeys
+      - 🆗1@oneclickvpnkeys
+      - "@meli_proxyy_35"
+      - "@meli_proxyy_36"
+      - "@meli_proxyy_37"
+      - "@meli_proxyy_38"
+      - "[_17"
+      - "[_18"
+      - "@meli_proxyy_39"
+      - "[_19"
+      - 🆒13@oneclickvpnkeys
+      - "@meli_proxyy_40"
+      - "@meli_proxyy_41"
+      - "[_20"
       - 🆙64@oneclickvpnkeys
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_1
       - 🆎57@oneclickvpnkeys
       - 🆎23@oneclickvpnkeys_1
       - ❗6@oneclickvpnkeys
+      - "@Artemisvpn1_8"
       - "@Artemisvpn1_9"
       - "@Artemisvpn1_10"
       - "@Artemisvpn1_11"
       - "@Artemisvpn1_12"
       - "@Artemisvpn1_13"
-      - "@Artemisvpn1_14"
       - ✴️41@oneclickvpnkeys
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_1
       - ♎41@oneclickvpnkeys
-      - defaultName_3
       - 📳5@oneclickvpnkeys
       - 🆓60@oneclickvpnkeys
       - 🅱️76@oneclickvpnkeys
-      - "@meli_proxyyسرورای‌بیشتر_1"
       - "@meli_proxyyسرورای‌بیشتر_2"
+      - "@meli_proxyyسرورای‌بیشتر_3"
+      - 🌲24@oneclickvpnkeys
+      - (S104)
+      - "Our Channel : @DirectVPN_1"
+      - "[_21"
+      - "@meli_proxyy_42"
+      - "@meli_proxyy_43"
       - "[_22"
+      - "@Parsashonam_4"
+      - "@Parsashonam_5"
+      - "@Parsashonam_6"
+      - "Our Channel : @DirectVPN_2"
       - "[_23"
       - "[_24"
+      - "@proxy_kafee+|+ALL(مش+آرمین)_2"
       - "[_25"
-      - "@meli_proxyy_33"
-      - "@meli_proxyy_34"
-      - "[🏁]t.me/ConfigsHub_1"
-      - "@meli_proxyy_35"
-      - "@mehrosaboran_7"
-      - "@mehrosaboran_8"
-      - "@mehrosaboran_9"
-      - defaultName_4
-      - "@meli_proxyy_36"
       - "[_26"
       - "[_27"
-      - "@meli_proxyy_37"
-      - "@meli_proxyy_38"
-      - "@meli_proxyy_39"
-      - "@Parsashonam_1"
-      - "@Parsashonam_2"
-      - TLS5-ALL|@ArV2ray
-      - WS3-All+|+@ArV2ray
       - "[_28"
+      - "@proxy_kafee+|+ALL++(ژاکلین)_2"
       - "[_29"
-      - "[_30"
-      - TLS4-ALL|@ArV2ray_2
-      - WS2-All+|+@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_2"
-      - "[🏁]t.me/ConfigsHub_3"
-      - "[_31"
-      - "@meli_proxyy_40"
-      - TLS3-ALL|@ArV2ray_2
-      - TLS2-ALL|@ArV2ray_2
-      - "[_32"
-      - "[_33"
-      - WS-All+|+@ArV2ray_2
-      - "@meli_proxyy_41"
-      - "[_34"
-      - "@meli_proxyy_42"
-      - defaultName_5
-      - "@meli_proxyy_43"
       - "@meli_proxyy_44"
-      - defaultName_6
+      - "@meli_proxyy_45"
+      - "[_30"
+      - "[_31"
+      - "[_32"
+      - "@meli_proxyy_46"
+      - "[_33"
+      - "@meli_proxyyسرورای‌بیشتر_4"
+      - "@mehrosaboran_4"
+      - "[_34"
+      - "@meli_proxyy_47"
       - "[_35"
+      - "@meli_proxyy_48"
+      - "@meli_proxyy_49"
+      - "@meli_proxyy_50"
+      - "[🏁]t.me/ConfigsHub_1"
+      - "@meli_proxyy_51"
+      - "@meli_proxyy_52"
+      - "@meli_proxyy_53"
       - "[_36"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_3
       - "[_37"
-      - TLS-ALL|@ArV2ray_2
       - "[_38"
       - "[_39"
-      - WS6-All+|+@ArV2ray_2
-      - "@meli_proxyy_45"
+      - "@mehrosaboran_5"
+      - "@meli_proxyy_54"
       - "[_40"
-      - TLS6-ALL|@ArV2ray_2
-      - "[🏁]t.me/ConfigsHub_4"
-      - WS4-All+|+@ArV2ray_2
       - "[_41"
       - "[_42"
       - "[_43"
-      - "@mehrosaboran_10"
-      - "@mehrosaboran_11"
-      - "@mehrosaboran_12"
-      - "@mehrosaboran_13"
       - "[_44"
       - "[_45"
+      - "@meli_proxyy_55"
       - "[_46"
       - "[_47"
-      - "@meli_proxyy_46"
-      - "@meli_proxyy_47"
-      - "@meli_proxyy_48"
       - "[_48"
       - "[_49"
       - "[_50"
+      - "@meli_proxyy_56"
+      - defaultName_2
       - "[_51"
-      - meli_proxyy
+      - "[🏁]t.me/ConfigsHub_2"
       - "[_52"
       - "[_53"
       - "[_54"
@@ -4070,26 +3922,41 @@ proxy-groups:
       - "[_58"
       - "[_59"
       - "[_60"
+      - "@meli_proxyy_57"
+      - "@meli_proxyy_58"
+      - "@meli_proxyy_59"
       - "[_61"
-      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪
       - "[_62"
-      - "@meli_proxyy_49"
-      - "@meli_proxyy_50"
-      - "@meli_proxyy_51"
-      - "@meli_proxyy_52"
+      - "@mehrosaboran_6"
       - "[_63"
-      - "@meli_proxyy_53"
-      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_4
       - "[_64"
-      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
-      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
-      - proxy_mtm
-      - "@Artemisvpn1_15"
       - "[_65"
+      - "[_66"
+      - "[_67"
+      - "[_68"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_1
+      - "[_69"
+      - "[_70"
+      - (@VmessProtocol)برای+خرید+و+اتصال+دائمی+جوین+شو🇩🇪_2
+      - "[_71"
+      - "@meli_proxyy_60"
+      - "@meli_proxyy_61"
+      - "@meli_proxyy_62"
+      - "@meli_proxyy_63"
+      - "[_72"
+      - "@meli_proxyy_64"
+      - 🟣🔥 کانال سرور اختصاصی با سرعت بالا تضمینی @Outlinev_2rayNG_2
+      - "[_73"
+      - 🇳🇱🌏+@customv2ray+کانفیگ+های+بیشتر+عضو+شو
+      - "@meli_proxyy_65"
+      - "[_74"
+      - 🇺🇸🌏 @customv2ray کانفیگ های بیشتر عضو شو_2
+      - "@Artemisvpn1_14"
+      - 🇫🇷+فرانسه+🕊️@Gozargah_Azadi_2
+      - "[_75"
       - 🇮🇳telegram+➠+@v2rayNG_Matsuri_2
       - 🆎23@oneclickvpnkeys_2
-      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋_2
-      - defaultName_7
+      - 🆔+@𝐀𝐑𝐓𝐄𝐌𝐈𝐒𝐕𝐏𝐍1+🦋
       - 🆑40@oneclickvpnkeys
       - رایگان | VMESS | @DeamNet_Proxy | US🇺🇸 | 0️⃣2️⃣
       - رایگان | VMESS | @oneclickvpnkeys | US🇺🇸 | 0️⃣1️⃣
